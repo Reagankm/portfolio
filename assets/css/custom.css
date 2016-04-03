@@ -1,0 +1,127 @@
+
+/*Create speech bubble effect*/
+
+.masthead-nav
+{
+    font-family: 'Spinnaker', Arial, sans-serif;
+    
+    text-shadow: none; /* Prevent inheritence from `body` */
+    background: white;
+
+    height:60px;
+
+    border:5px solid #1dbacc;
+
+    border-radius:10px ;
+
+    -moz-border-radius:10px;
+
+    -webkit-border-radius:10px;
+
+    position:relative;
+
+}
+
+.masthead-nav:before
+
+{
+
+    content:"";
+
+    position:absolute;
+
+    bottom:-20px; /* value = - border-top-width - border-bottom-width */
+
+    right:120px; /* controls horizontal position */
+
+    border-width:20px 20px 0;
+
+    border-style:solid;
+
+    border-color:#1dbacc transparent;
+
+    /* reduce the damage in FF3.0 */
+
+    display:block;
+
+    width:0;
+
+}
+
+.masthead-nav:after
+
+{
+
+    content:"";
+
+    position:absolute;
+
+    bottom:-13px; /* value = - border-top-width - border-bottom-width */
+
+    right:127px; /* value = (:before left) + (:before border-left) - (:after border-left) */
+
+    border-width:13px 13px 0;
+
+    border-style:solid;
+
+    border-color:#fff transparent;
+
+    /* reduce the damage in FF3.0 */
+
+    display:block;
+
+    width:0;
+
+}
+
+.masthead-nav > li > a {
+    font-size: 22px;
+}
+
+body {
+
+    background: url('../img/emp_sm.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+
+/* Center navbar on screen */
+.speech-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 1000px;
+
+}
+
+.main-image {
+
+    margin-top: 120px;
+
+}
+
+#credits p {
+    float: left;
+
+}
+
+#credits a {
+    
+    text-decoration: underline;
+
+}
+
+
+
+
+@media (min-width: 1000px) {
+    .speech-navbar {
+        width: 1000px;
+    }
+}
+
