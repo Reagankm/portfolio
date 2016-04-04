@@ -138,11 +138,15 @@ body {
     overflow: hidden;
 }
 
-.heading {
-    font-family: 'Cinzel Decorative', cursive;
-    font-size: 60px;
+
+
+.pic-heading {
+    font-family: 'Rye', cursive;
+    font-size: 40px;
     text-align: center;
     color: #662266;
+    /*line-height: .8;*/
+    margin-top: 45px;
 }
 
 
@@ -184,8 +188,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    padding: 60px;
-    
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .text-box {
@@ -196,6 +202,7 @@ body {
     font-family: 'Raleway', Courier, serif;
     font-size: 20px;
     text-align: left;
+    
 }
 
 
@@ -211,7 +218,7 @@ body {
 
 .emphatic-heading {
 
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Rye', cursive;
     line-height: .75;
     font-size: 50px; 
 
@@ -239,13 +246,33 @@ body {
 
 #portrait {
     border-radius: 100% 50%;
+    margin-top: 0px;
+    margin-bottom: 35px;
 }
 
 #hackcessible {
     border-radius: 10px;
 }
 
+.dev-fame {
+    background: #C4D2F6;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-top: -40px;
+}
 
+
+#dev-fame-heading {
+    font-family: 'Rye', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: #DE5464;
+    
+}
+
+.dev-fame p {
+    font-family: 'Montserrat Alternates', serif;
+}
 
 
 
