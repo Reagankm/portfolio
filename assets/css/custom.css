@@ -269,8 +269,41 @@ body {
     color: #DE5464;
     
 }
-
+/*
 .dev-fame p {
+    font-family: 'Montserrat Alternates', serif;
+}*/
+
+.dev-fame-item {
+    padding: 10px;
+    box-shadow: inset 0px 0px 11px 1px #ABABAB;
+    -webkit-box-shadow: inset 0px 0px 11px 1px #ABABAB;
+    -moz-box-shadow: inset 0px 0px 11px 1px #ABABAB;
+    -o-box-shadow: inset 0px 0px 11px 1px #ABABAB;
+    border:1px inset #888;
+    border-radius: 10px;
+    
+}
+
+
+.dev-fame-item p {
+    text-align: center;
+}
+
+
+.dev-fame-item-desc {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.dev-fame-item img {
+    margin-top: 4px;
+    margin-left: 15px;
+    border-radius: 50%;
+    
+}
+
+.dev-fame-item-heading {
     font-family: 'Montserrat Alternates', serif;
 }
 
