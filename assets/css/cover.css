@@ -3,11 +3,6 @@
  */
 
 /* Links */
-a,
-a:focus,
-a:hover {
-    color: #fff;
-}
 
 /* Custom default button */
 .btn-default,
@@ -27,49 +22,13 @@ a:hover {
 html,
 body {
     height: 100%;
-    /*background-color: #333;*/
-    /*background: url('../img/emp_sm.png') no-repeat center center fixed;*/
+
 }
 body {
     color: #fff;
     text-align: center;
     text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
-
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
-    display: table;
-    width: 100%;
-    height: 100%; /* For at least Firefox */
-    min-height: 100%;
-    
-    /* Create old-timey shadow effect around edge of
-    screen */
-    -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-}
-.site-wrapper-inner {
-    display: table-cell;
-    vertical-align: top;
-}
-.cover-container {
-    margin-right: auto;
-    margin-left: auto;
-}
-
-/* Padding for spacing */
-.inner {
-    padding: 30px;
-}
-
-
-/*
- * Header
- */
-/*.masthead-brand {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}*/
 
 .masthead-nav > li {
     display: inline-block;
@@ -83,59 +42,12 @@ body {
     padding-right: 0;
     padding-left: 0;
     font-size: 16px;
-    /*font-weight: bold;*/
     color: #000; /* IE8 proofing */
-    /*color: rgba(255,255,255,.75);
-    //border-bottom: 2px transparent;*/
 }
 
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
-    /*background-color: #4c9c99;*/
     background-color: transparent;
-    /*border-bottom-color: #5a8f00;
-    //border-bottom-color: rgba(255,255,255,.25);*/
-}
-
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-   /* color: #000;*/
-    /*border-bottom-color: #5a8f00;*/
-}
-
-/* @media (min-width: 768px) {
-    .masthead-brand {
-        float: left;
-    }
-    .masthead-nav {
-        float: right;
-    }
-} */
-
-
-/*
- * Cover
- */
-
-.cover {
-    padding: 0 20px;
-}
-
-.cover .btn-lg {
-    padding: 10px 20px;
-    font-weight: bold;
-}
-
-
-/*
- * Footer
- */
-
-.mastfoot {
-    color: #999; /* IE8 proofing */
-    color: rgba(255,255,255,.5);
-    text-shadow: none;
 }
 
 
