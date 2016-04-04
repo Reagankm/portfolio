@@ -1,9 +1,9 @@
 /*
-Colors:
+   Colors:
    Blue: #1dbacc
    Purple: #662266
    Pink: #DE5464
-*/
+ */
 
 /* Links */
 a,
@@ -17,7 +17,7 @@ a:hover {
 html,
 body {
     height: 100%;
-
+    text-shadow: none;
 }
 
 
@@ -130,9 +130,14 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-   
+    
     
 }
+
+#about-body {
+    background: #000;
+}
+
 
 #home-page {
     overflow: hidden;
@@ -222,6 +227,7 @@ body {
     line-height: .75;
     font-size: 50px; 
 
+    margin: 0 25px;
 }
 
 .emphatic-heading .top {
@@ -246,8 +252,9 @@ body {
 
 #portrait {
     border-radius: 100% 50%;
-    margin-top: 0px;
+    margin-top: 35px;
     margin-bottom: 35px;
+    
 }
 
 #hackcessible {
@@ -270,9 +277,9 @@ body {
     
 }
 /*
-.dev-fame p {
-    font-family: 'Montserrat Alternates', serif;
-}*/
+   .dev-fame p {
+   font-family: 'Montserrat Alternates', serif;
+   }*/
 
 .dev-fame-item {
     padding: 10px;
@@ -307,9 +314,110 @@ body {
     font-family: 'Montserrat Alternates', serif;
 }
 
+#top-banner {
+    background: url('../img/emp_sm.png') 50% 0 repeat fixed;
+    /*background: url('../img/emp_sm.png') no-repeat center center fixed;*/
+    
+    /*! padding-top: 120px; */
+    text-shadow: 2px 2px 3px #000;
+    /*! padding-bottom: 40px; */
+}
+
+#top-banner .clearfix {
+    background: rgba(255,255,255,.5);
+    width:  40%;
+    padding-top: 120px;
+    padding-bottom:  40px;
+    /*! margin-left: 100px; */
+    /*! margin-right:  100px; */
+}
+
+
+.blue-divider-bar {
+    background: #1dbacc;
+    /*padding: 20px;*/
+    padding: 5px;
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 30px;
+    
+}
+
+.blue-divider-bar p {
+    margin: 0;
+}
+
+.pink-divider-bar {
+    background: #de5464;
+    /*padding: 20px;*/
+    padding: 5px;
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 30px;
+    
+}
+
+.pink-divider-bar p {
+    margin: 0;
+}
+
+
+#about-top {
+    font-family: 'Montserrat Alternates', serif;
+    background: #5c5851;
+    color: #1dbacc;
+    text-align: center;
+    
+}
+
+
+#about-top p {
+    font-size: 26px;
+    padding: 90px;
+  
+}
+
+#about-mid {
+    background: url('../img/laptop.JPG') no-repeat center center fixed;
+    height: 100%
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 22px;
+}
+
+#about-mid .container {
+    padding: 100px 35px;
+}
+
+#about-mid p + p {
+    margin-top: 30px;
+}
+
+#dev-fame-points {
+    border: 5px solid #000;
+}
+
+/* from amazee labs */
+.node-service .row-1 {
+    background-color: #662266;
+}
+
+.node-service .row {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+.node-service .row-1 .triangle {
+    border-color: transparent transparent #662266;
+}
 
 
 
+.node-service .row h2 {
+    font-family: 'Spinnaker', sans-serif;
+}
+
+
+.text-container {
+    text-align: left;
+}
 
 
 
