@@ -1,31 +1,44 @@
 /*
    Colors:
-   Blue: #1dbacc
-   Purple: #662266
+   Blue: #1dbacc rgb: 29, 186, 204
+   Purple: #662266 rgb: 102,34,102
    Pink: #DE5464
  */
 
-/* Links */
+/* Basics */
+
 a,
 a:focus,
 a:hover {
     color: #fff;
 }
 
-
-
 html,
 body {
     height: 100%;
     text-shadow: none;
+    font-family: 'Montserrat Alternates', Helvetica, Arial, sans-serif;
+}
+
+body {
+
+    background: url('../img/emp_sm.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
 }
 
 
-/*Create speech bubble effect*/
+
+/*Style navbar and create speech bubble effect*/
 
 .masthead-nav
 {
-    font-family: 'Spinnaker', Arial, sans-serif;
+    /*font-family: 'Spinnaker', Arial, sans-serif;*/
+    font-family: 'Rye', Helvetica, serif;
     
     text-shadow: none; /* Prevent inheritence from `body` */
     background: white;
@@ -123,39 +136,6 @@ body {
     font-size: 22px;
 }
 
-body {
-
-    background: url('../img/emp_sm.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    
-}
-
-#about-body {
-    background: #000;
-}
-
-
-#home-page {
-    overflow: hidden;
-}
-
-
-
-.pic-heading {
-    font-family: 'Rye', cursive;
-    font-size: 40px;
-    text-align: center;
-    color: #662266;
-    /*line-height: .8;*/
-    margin-top: 45px;
-}
-
-
-
 /* Center navbar on screen */
 .speech-navbar {
     margin-left: auto;
@@ -165,10 +145,27 @@ body {
 
 }
 
+
+
+#home-page {
+    overflow: hidden;
+}
+
+/*Settings for the home page's image */
 .main-image {
 
     margin-top: 120px;
 
+}
+
+/* Settings for the footer */
+.credits {
+    background: #000;
+    text-align: left;
+}
+
+.credits a {
+    text-decoration: underline;
 }
 
 .credits-footer {
@@ -187,39 +184,7 @@ body {
 
 }
 
-.white-jumbo {
-    background: white;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-right: 30px;
-    padding-left: 30px;
-}
-
-.text-box {
-    margin-left: auto;
-    margin-right: auto;
-    text-shadow: none;
-    color: #000;
-    font-family: 'Raleway', Courier, serif;
-    font-size: 20px;
-    text-align: left;
-    
-}
-
-
-
-.vertical-center-box {
-    
-    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
-
-    display: flex;
-    align-items: center;
-}
+/* Triple heading for pages */
 
 .emphatic-heading {
 
@@ -250,77 +215,11 @@ body {
     margin-top: 30px;
 }
 
-#portrait {
-    border-radius: 100% 50%;
-    margin-top: 35px;
-    margin-bottom: 35px;
-    
-}
-
-#hackcessible {
-    border-radius: 10px;
-}
-
-.dev-fame {
-    background: #C4D2F6;
-    padding-left: 90px;
-    padding-right: 90px;
-    margin-top: -40px;
-}
-
-
-#dev-fame-heading {
-    font-family: 'Rye', cursive;
-    font-size: 60px;
-    text-align: center;
-    color: #DE5464;
-    
-}
-/*
-   .dev-fame p {
-   font-family: 'Montserrat Alternates', serif;
-   }*/
-
-.dev-fame-item {
-    padding: 10px;
-    box-shadow: inset 0px 0px 11px 1px #ABABAB;
-    -webkit-box-shadow: inset 0px 0px 11px 1px #ABABAB;
-    -moz-box-shadow: inset 0px 0px 11px 1px #ABABAB;
-    -o-box-shadow: inset 0px 0px 11px 1px #ABABAB;
-    border:1px inset #888;
-    border-radius: 10px;
-    
-}
-
-
-.dev-fame-item p {
-    text-align: center;
-}
-
-
-.dev-fame-item-desc {
-    font-family: 'Raleway', sans-serif;
-}
-
-
-.dev-fame-item img {
-    margin-top: 4px;
-    margin-left: 15px;
-    border-radius: 50%;
-    
-}
-
-.dev-fame-item-heading {
-    font-family: 'Montserrat Alternates', serif;
-}
+/* Top banner for emphatic heading */
 
 #top-banner {
-    background: url('../img/emp_sm.png') 50% 0 repeat fixed;
-    /*background: url('../img/emp_sm.png') no-repeat center center fixed;*/
-    
-    /*! padding-top: 120px; */
+    background: url('../img/emp_sm.png') 50% 0 repeat fixed;    
     text-shadow: 2px 2px 3px #000;
-    /*! padding-bottom: 40px; */
 }
 
 #top-banner .clearfix {
@@ -328,13 +227,13 @@ body {
     width:  40%;
     padding-top: 120px;
     padding-bottom:  40px;
-    /*! margin-left: 100px; */
-    /*! margin-right:  100px; */
 }
+
+/* Divider bar that crosses width of screen */
 
 .divider-bar {
     padding: 5px;
-    font-family: 'Spinnaker', sans-serif;
+    font-family: 'Milonga', Helvetica, serif;
     font-size: 30px;
 }
 
@@ -342,28 +241,69 @@ body {
     margin: 0;
 }
 
+.divider-bar h1 {
+    font-family: 'Rye', Helvetica, sans-serif;
+    font-size: 60px;
+}
 
-#blue-bar {
+
+.blue-bar {
     background: #1dbacc;
-}
-
-#purple-bar {
-    background: #662266;
-}
-
-#pink-bar {
-    background: #de5464;   
-}
-
-
-#about-top {
-    font-family: 'Montserrat Alternates', serif;
-    background: #5c5851;
-    color: #1dbacc;
-    text-align: center;
     
 }
 
+.blue-bar > .container {
+    padding: 30px 100px;
+    font-size: 25px;
+    color: #000;
+}
+
+.blue-bar p + p {
+    margin-top: 30px;
+}
+
+
+.blue-bar > .container a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.purple-bar {
+    background: #662266;
+}
+
+.pink-bar {
+    background: #de5464;
+    
+}
+
+/* Heading for top of a page */
+.page-heading {
+    padding-top: 75px;
+    padding-bottom: 15px;
+    font-family: 'Rye', Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+
+/* Portrait for About Me */
+#portrait {
+    border-radius: 100% 50%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+}
+
+#dev-fame-section {
+    padding: 25px;
+}
+
+#about-top {
+    font-family: 'Milonga', Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background: url('../img/emp_sm.png') 50% 0 repeat fixed;
+}
 
 #about-top p {
     font-size: 26px;
@@ -375,8 +315,9 @@ body {
     background: url('../img/laptop.JPG') no-repeat center center fixed;
     height: 100%
     color: white;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 22px;
+    font-family: 'Milonga', Helvetica, serif;
+    
+    font-size: 26px;
 }
 
 #about-mid .container {
@@ -387,11 +328,7 @@ body {
     margin-top: 30px;
 }
 
-#dev-fame-points {
-    border: 5px solid #000;
-}
-
-/* from amazee labs */
+/* for trapezoids */
 .node-service .row-1 {
     background-color: #662266;
 }
@@ -433,10 +370,82 @@ body {
     font-family: 'Spinnaker', sans-serif;
 }
 
-
 .text-container {
     text-align: left;
 }
+
+/* Text in trapezoids */
+.field-item {
+    font-family: 'Rye', Helvetica, serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.field-item p {
+    font-family: 'Milonga', Arial, sans-serif;
+    line-height: 33px;
+    text-align: left;
+    font-size: 24px;
+}
+
+
+.portfolio-item.odd{
+    background: rgba(29, 186, 204, .5);
+}
+
+.portfolio-item.even{
+    background: rgba(102, 34, 102, .5);
+}
+
+.portfolio-item .row {
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-item .text {
+    font-family: 'Milonga', Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+
+/* Footnote for About Me page */
+.footnote {
+    background: #000;
+    font-family: 'Milonga', Helvetica, serif;
+    padding: 20px;
+}
+
+.footnote a:hover {
+    text-decoration: none;
+}
+
+#about-end {
+    background: #fff;
+    
+}
+
+.portfolio-item img {
+    margin-left: -10px;
+}
+
+.portfolio-item {
+    color: #000;
+    font-family: 'Milonga', Helvetica, serif;
+}
+
+.portfolio-item h1, h2 {
+    font-family: 'Rye', Arial, sans-serif;
+}
+
+
+.portfolio-item p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
 
 
 

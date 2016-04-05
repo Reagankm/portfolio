@@ -277,13 +277,6 @@
 
 
 
-                                <!-- Create footer -->
-                                <!--         <nav class="navbar-fixed-bottom credits">
-                                <div class="container" >
-                                    <p>&copy; 2016 Reagan Middlebrook   <small>Background image courtesy of <a href="https://www.flickr.com/photos/logicalrealist/2312803171">Sean Munson</a>.</small></p>
-                                </div>
-        </nav>  --> <!-- end footer -->
-        
 
 
         <!-- BOOTSTRAP CORE JAVASCRIPT (Place at the end of the document so the page loads faster) ======= -->
