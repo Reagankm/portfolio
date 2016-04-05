@@ -134,7 +134,17 @@ body {
     color: #de5464;
 }
 
-/* Dynamic text for Portfolio */
+/* Center navbar on screen */
+.speech-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 1000px;
+
+}
+
+
+/* Dynamic text for Portfolio Navbar*/
 
 #dynamic-portfolio:before {
     position: absolute;
@@ -156,7 +166,7 @@ body {
 }
 
 
-/* Dynamic text for About */
+/* Dynamic text for About Navbar*/
 
 #dynamic-about:before {
     position: absolute;
@@ -178,7 +188,7 @@ body {
 }
 
 
-/* Dynamic text for Contact */
+/* Dynamic text for Contact Navbar*/
 #dynamic-contact:before {
     position: absolute;
     width: 100%;
@@ -198,16 +208,8 @@ body {
     opacity: 1;
 }
 
-/* Center navbar on screen */
-.speech-navbar {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    width: 1000px;
 
-}
-
-
+/* make home one page */
 
 #home-page {
     overflow: hidden;
@@ -265,25 +267,6 @@ body {
     text-align: right;
 }
 
-#contact-heading {
-    line-height: .75;
-    padding-left: 250px;
-    padding-right: 250px;
-}
-
-#contact-heading .top {
-    text-align: left;
-}
-
-#contact-heading .middle {
-    text-align: center;
-}
-
-#contact-heading .bottom {
-    text-align: right;
-}
-
-
 .emphatic-heading {
 
     font-family: 'Rye', cursive;
@@ -313,6 +296,28 @@ body {
     padding-left: 300px;
     padding-right: 300px;
 }
+
+
+/* end of Emphatic divider */
+
+#contact-heading {
+    line-height: .75;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#contact-heading .top {
+    text-align: left;
+}
+
+#contact-heading .middle {
+    text-align: center;
+}
+
+#contact-heading .bottom {
+    text-align: right;
+}
+
 
 
 .lead-p {
@@ -605,6 +610,43 @@ body {
     font-family: 'Rye', Arial, sans-serif;
 }
 
+.portfolio-item h2 {
+    font-size: 25px;
+}
+
+.portfolio-item h2 + h2 {
+    margin-top: 0px;
+}
+
+.toolbox {
+    padding-top: 1px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+
+.even .toolbox {
+    background: #1dbacc;
+}
+
+.odd .toolbox {
+    background: white;
+}
+
+
+
+
+
+.portfolio-item a {
+    text-decoration: underline;
+}
+
+
+
+.portfolio-item h2 span {
+    font-size: 20px;
+}
+
+
 
 .portfolio-item p {
     margin-top: 20px;
@@ -687,7 +729,33 @@ body {
 
 .portfolio-item.even a{
     /*color: rgba(29, 186, 204, 1);*/
-    color: #662266;
+    /*color: #662266;*/
+    color: white;
+}
+
+.portfolio-item.odd a {
+    color: #1dbacc;
+}
+
+.btn-default {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', Arial, sans-serif;
+}
+
+
+.portfolio-item.even .btn-default {
+    /*background: white;*/
+    color: white;
+    text-decoration: none;
+    background: #662266;
+    
+}
+
+.portfolio-item.odd .btn-default {
+    background: #de5464;
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -752,5 +820,56 @@ body {
 
 
 
+/* MEDIA QUERIES FOR DIFFERENT SCREEN SIZES */
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    /* No changes needed */
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .speech-navbar {
+        width: 920px;
+    }
+
+    .masthead-nav > li + li {
+        margin-left: 40px;
+    }
+
+    .main-image img {
+        height: auto;
+        width: 980px;
+    }
+
+    .col-md-7 .text {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 18px;
+    }
+    
+    .portfolio-item h1, h2 {
+        font-size: 20px;
+    }
+    
+    
+    
+    
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
 
 
