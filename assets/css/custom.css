@@ -185,6 +185,42 @@ body {
 }
 
 /* Triple heading for pages */
+.emphatic.divider-bar {
+    line-height: .75;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.emphatic.divider-bar .top {
+    text-align: left;
+}
+
+.emphatic.divider-bar .middle {
+    text-align: center;
+}
+
+.emphatic.divider-bar .bottom {
+    text-align: right;
+}
+
+#contact-heading {
+    line-height: .75;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#contact-heading .top {
+    text-align: left;
+}
+
+#contact-heading .middle {
+    text-align: center;
+}
+
+#contact-heading .bottom {
+    text-align: right;
+}
+
 
 .emphatic-heading {
 
@@ -210,6 +246,12 @@ body {
     text-align: right;
     color: #DE5464;
 }
+
+.emphatic-heading .container {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
 
 .lead-p {
     margin-top: 30px;
@@ -259,7 +301,7 @@ body {
 }
 
 .blue-bar p + p {
-    margin-top: 30px;
+    /*margin-top: 30px;*/
 }
 
 
@@ -279,7 +321,7 @@ body {
 
 /* Heading for top of a page */
 .page-heading {
-    padding-top: 75px;
+    padding-top: 85px;
     padding-bottom: 15px;
     font-family: 'Rye', Helvetica, sans-serif;
     font-size: 60px;
@@ -307,9 +349,16 @@ body {
 
 #about-top p {
     font-size: 26px;
-    padding: 90px;
+    padding: 45px;
   
 }
+
+#about-top h1 {
+    font-family: 'Rye', Helvetica, serif;
+    padding-top: 45px;
+    font-size: 50px;
+}
+
 
 #about-mid {
     background: url('../img/laptop.JPG') no-repeat center center fixed;
@@ -394,8 +443,15 @@ body {
 }
 
 .portfolio-item.even{
-    background: rgba(102, 34, 102, .5);
+    /*background: rgba(102, 34, 102, .5);*/
+    background: rgba(255, 255, 255, .5);
 }
+
+.portfolio-item.even a{
+    /*color: rgba(29, 186, 204, 1);*/
+    color: #662266;
+}
+
 
 .portfolio-item .row {
     margin-right: 0;
@@ -426,9 +482,15 @@ body {
     
 }
 
-.portfolio-item img {
+.portfolio-item.even img {
     margin-left: -10px;
 }
+
+.portfolio-item.odd img {
+    align: right;
+    margin-right: -10px;
+}
+
 
 .portfolio-item {
     color: #000;
@@ -445,7 +507,56 @@ body {
     font-size: 20px;
 }
 
+#contact-deets {
+    background: white;
+    color: black;
+    font-size: 30px;
+    font-family: 'Milonga', Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+#contact-deets * span {
+    font-family: 'Rye', Helvetica, serif;
+    color: #662266;
+}
+
+#contact-deets * .text {
+    padding: 28px;
+    
+}
+
+#contact-deets a {
+    color: black;
+}
+
+#contact-deets img {
+    border: 5px solid #000;
+}
 
 
+.color-box {
+    background: #1dbacc;
+    border-radius: 10px;
+    padding: 15px;
+} 
 
 
+.fa.inner {
+    color: white;
+}
+
+#beware {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+
+/*
+
+#project-body .footer {
+    margin-top: -5px;
+    text-align: left;
+}
+*/
