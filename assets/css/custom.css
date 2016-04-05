@@ -392,26 +392,38 @@ body {
 
 .node-service .row-2 {
     background-color: #1dbacc;
+    color: #000;
 }
+
+.node-service .row-2 .field-item {
+    color: #000;
+}
+
 
 .node-service .row-2 .triangle {
     border-color: transparent transparent #1dbacc;
 }
 
 .node-service .row-3 {
-    background-color: #de5464;
-}
-
-.node-service .row-3 .triangle {
-    border-color: transparent transparent #de5464;
-}
-
-.node-service .row-4 {
     background-color: #662266;
 }
 
-.node-service .row-4 .triangle {
+.node-service .row-3 .triangle {
     border-color: transparent transparent #662266;
+}
+
+.node-service .row-4 {
+    background-color: #1dbacc;
+    color: #000;
+}
+
+.node-service .row-4 .field-item {
+    color: #000;
+}
+
+
+.node-service .row-4 .triangle {
+    border-color: transparent transparent #1dbacc;
 }
 
 
@@ -447,6 +459,22 @@ body {
     margin-bottom: 10px;
 }
 
+.portfolio-item .row {
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-item .text {
+    font-family: 'Milonga', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.portfolio-item img {
+    width: 400px;
+    height: auto;
+}
+
 
 .portfolio-item.odd .pane{
     background: rgba(29, 186, 204, .5);
@@ -472,16 +500,6 @@ body {
 }
 
 
-.portfolio-item .row {
-    margin-right: 0;
-    display: flex;
-    align-items: center;
-}
-
-.portfolio-item .text {
-    font-family: 'Milonga', Arial, sans-serif;
-    font-size: 20px;
-}
 
 
 
