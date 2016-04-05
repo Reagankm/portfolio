@@ -55,6 +55,9 @@ body {
 
     position:relative;
 
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
 
 .masthead-nav:before
@@ -115,25 +118,84 @@ body {
 }
 
 .masthead-nav > li + li {
-    margin-left: 80px;
+    margin-left: 70px;
 }
 
 .masthead-nav > li > a {
     padding-right: 0;
     padding-left: 0;
-    font-size: 16px;
+    font-size: 24px;
     color: #000; /* IE8 proofing */
 }
 
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
-    background-color: transparent;
+    /*background-color: transparent;*/
+    color: #de5464;
+}
+
+/* Dynamic text for Portfolio */
+
+#dynamic-portfolio:before {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+}
+
+#dynamic-portfolio:before {
+    content: attr(data-hover);
 }
 
 
+#dynamic-portfolio:hover span {
+    opacity: 0;
+}
 
-.masthead-nav > li > a {
-    font-size: 22px;
+#dynamic-portfolio:hover:before {
+    opacity: 1;
+}
+
+
+/* Dynamic text for About */
+
+#dynamic-about:before {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+}
+
+#dynamic-about:before {
+    content: attr(data-hover);
+}
+
+
+#dynamic-about:hover span {
+    opacity: 0;
+}
+
+#dynamic-about:hover:before {
+    opacity: 1;
+}
+
+
+/* Dynamic text for Contact */
+#dynamic-contact:before {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+}
+
+#dynamic-contact:before {
+    content: attr(data-hover);
+}
+
+
+#dynamic-contact:hover span {
+    opacity: 0;
+}
+
+#dynamic-contact:hover:before {
+    opacity: 1;
 }
 
 /* Center navbar on screen */
@@ -449,6 +511,115 @@ body {
     font-size: 24px;
 }
 
+
+
+.parallax-image {
+    height: 500px;
+    position: relative;
+}
+
+.parallax-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* Footnote for About Me page */
+.footnote {
+    background: #000;
+    font-family: 'Milonga', Helvetica, serif;
+    padding: 20px;
+}
+
+.footnote a:hover {
+    text-decoration: none;
+}
+
+#about-end {
+    background: #fff;
+    
+}
+
+#about-end .container .row {
+    color: black;
+}
+
+#about-end .container {
+    position: relative;
+}
+
+
+#about-end img {
+    position: absolute;
+    left: 50%;
+    /*position: relative;
+       bottom: -407px;*/
+}
+
+
+#about-bottom.row {
+    height: auto;
+}
+
+#about-overlap {
+    font-family: 'Milonga', Helvetica, sans-serif;
+}
+
+
+#about-overlap.row {
+    color: black;
+    margin-top: -300px;
+    margin-bottom: -42px;
+    
+}
+
+#about-overlap.row a {
+    color: black;
+    text-decoration: underline;
+    font-family: 'Rye', Helvetica, san-serif;
+}
+
+
+
+#left-col {
+    padding: 40px 25px;
+}
+
+#right-col {
+    padding: 50px 25px;
+}
+
+
+/* STYLING FOR PORTFOLIO */
+
+.portfolio-item {
+    color: #000;
+    font-family: 'Milonga', Helvetica, serif;
+}
+
+.portfolio-item h1, h2 {
+    font-family: 'Rye', Arial, sans-serif;
+}
+
+
+.portfolio-item p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.portfolio-item.even img {
+    margin-left: -10px;
+}
+
+.portfolio-item.odd img {
+    align: right;
+    /*margin-right: -10px;*/
+}
+
 .pane {
     margin: 25px 100px;
     border-radius: 100px;
@@ -479,14 +650,14 @@ body {
     border-radius: 15px;
 }
 /*
-.portfolio-item .col-md-5 + .col-md-7 {
-    margin-left: -40px;
-}
+   .portfolio-item .col-md-5 + .col-md-7 {
+   margin-left: -40px;
+   }
 
-.portfolio-item .col-md-7 + .col-md-5 {
-    margin-left: -40px;
-}
-*/
+   .portfolio-item .col-md-7 + .col-md-5 {
+   margin-left: -40px;
+   }
+ */
 
 
 
@@ -495,7 +666,7 @@ body {
     
     border-color: rgba(255, 255, 255, 1);
     
-/*    margin-right: 0;*/
+    /*    margin-right: 0;*/
 }
 
 .portfolio-item.odd .text {
@@ -520,51 +691,7 @@ body {
 }
 
 
-
-
-
-/* Footnote for About Me page */
-.footnote {
-    background: #000;
-    font-family: 'Milonga', Helvetica, serif;
-    padding: 20px;
-}
-
-.footnote a:hover {
-    text-decoration: none;
-}
-
-#about-end {
-    background: #fff;
-    
-}
-
-.portfolio-item {
-    color: #000;
-    font-family: 'Milonga', Helvetica, serif;
-}
-
-.portfolio-item h1, h2 {
-    font-family: 'Rye', Arial, sans-serif;
-}
-
-
-.portfolio-item p {
-    margin-top: 20px;
-    font-size: 20px;
-}
-
-.portfolio-item.even img {
-    margin-left: -10px;
-}
-
-.portfolio-item.odd img {
-    align: right;
-    /*margin-right: -10px;*/
-}
-
-
-
+/* STYLING FOR CONTACT PAGE */
 
 #contact-deets {
     background: white;
@@ -589,8 +716,18 @@ body {
     color: black;
 }
 
+#contact-deets p a:hover {
+    text-decoration-color: #662266;
+}
+
+#contact-deets #email {
+    text-decoration-color: black;
+}
+
+
 #contact-deets img {
     border: 5px solid #000;
+    border-radius: 15px;
 }
 
 
@@ -611,61 +748,9 @@ body {
     font-size: 20px;
 }
 
-.parallax-image {
-    height: 500px;
-    position: relative;
-}
-
-.parallax-image img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-}
-
-#about-bottom.row {
-    height: auto;
-}
-
-#about-overlap.row {
-    color: black;
-    margin-top: -300px;
-    margin-bottom: -42px;
-    
-}
-
-#about-overlap.row a {
-    color: black;
-    text-decoration: underline;
-    font-family: 'Rye', Helvetica, san-serif;
-}
-
-
-
-#left-col {
-    padding: 20px 25px;
-}
-
-#right-col {
-    padding: 50px 25px;
-}
+/* end of styling for contact page */
 
 
 
 
-#about-end .container .row {
-    color: black;
-}
 
-#about-end .container {
-    position: relative;
-}
-
-
-#about-end img {
-    position: absolute;
-    left: 50%;
-    /*position: relative;
-    bottom: -407px;*/
-}

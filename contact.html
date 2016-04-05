@@ -48,9 +48,9 @@
         <nav class="navbar-fixed-top speech-navbar">
             <ul class="nav masthead-nav">
                 <li class="active"><a href="index.html">HOME</a></li>
-                <li><a href="portfolio.html">I BUILD SOFTWARE</a></li>
-                <li><a href="about.html">I'M GOOD AT IT</a></li>
-                <li><a href="contact.html">REACH ME HERE</a></li>
+                <li><a id="dynamic-portfolio" data-hover="PORTFOLIO" href="portfolio.html"><span>I BUILD SOFTWARE</span></a></li>
+                <li><a id="dynamic-about" data-hover="ABOUT ME" href="about.html"><span>I'M GOOD AT IT</span></a></li>
+                <li><a id="dynamic-contact" data-hover="CONTACT" href="contact.html"><span>REACH ME HERE</span></a></li>
             </ul>
         </nav> <!-- end navbar -->
 
@@ -68,41 +68,52 @@
             <div class="row">
                 <div class="col-md-6 text">
                     <div class="color-box">
-                        <p><span>Email:</span> <a href="mailto:reagankm@uw.edu">reagankm@uw.edu</a></p>
+                        <p><span>Email:</span> <a href="mailto:reagankm@uw.edu" id="email">reagankm@uw.edu</a></p>
                         <div class="row">
+                            <!-- RESUME -->
                             <div class="col-md-5 col-md-offset-1">
+                                <a href="https://goo.gl/mxl0hs">
                                 <span class="fa-stack fa-lg" >
                                     
                                     <i class="fa fa-circle fa-stack-2x" ></i>
                                     <i class="fa fa-file-text fa-stack-1x inner"></i>
-                                </span>
-                                <p><span>Resume</span></p>
+                                </span></a>
+                                <p><a href="https://goo.gl/mxl0hs"><span>Resume</span></a></p>
                                 
-                            </div>
+                            </div><!-- end resume -->
+
+                            <!-- LINKEDIN -->
                             <div class="col-md-5">
+                                <a href="http://www.linkedin.com/in/reagankm">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-linkedin fa-stack-1x inner"></i>
-                                </span>
-                                <p><span>LinkedIn</span></p>
+                                </span></a>
+                                <p><a href="http://www.linkedin.com/in/reagankm"><span>LinkedIn</span></a></p>
                             </div>
-                        </div><!-- end row -->
+                        </div><!-- end linkedin -->
+
+                        <!-- GITHUB -->
                         <div class="row">
                             <div class="col-md-5 col-md-offset-1">
+                                <a href="http://www.github.com/reagankm">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x" ></i>
                                     <i class="fa fa-github-alt fa-stack-1x inner"></i>
-                                </span>
-                                <p><span>GitHub</span></p>
-                            </div>
+                                </span></a>
+                                <p><a href="http://www.github.com/reagankm"><span>GitHub</span></a></p>
+                            </div><!-- end github -->
+
+                            <!-- TWITTER -->
                             <div class="col-md-5">
+                                <a href="http://www.twitter.com/Doom_llama">
                                 <span class="fa-stack fa-lg" >
                                     <i class="fa fa-circle fa-stack-2x" ></i>
                                     <i class="fa fa-twitter fa-stack-1x inner"></i>
-                                </span>
-                                <p><span>Twitter</span></p>
+                                </span></a>
+                                <p><a href="http://www.twitter.com/Doom_llama"><span>Twitter</span></a></p>
                             </div>
-                        </div><!-- end row -->
+                        </div><!-- end Twitter -->
                         
                         
                         <p id="beware">(The Twitter is full of madness, my son. Fear it.)</p>
