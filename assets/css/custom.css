@@ -437,14 +437,33 @@ body {
     font-size: 24px;
 }
 
-
-.portfolio-item.odd{
-    background: rgba(29, 186, 204, .5);
+.pane {
+    border-radius: 10px;
+    padding: 10px;
 }
 
-.portfolio-item.even{
+.portfolio-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.portfolio-item.odd .pane{
+    background: rgba(29, 186, 204, .5);
+    margin-left: 30px;
+
+    
+}
+
+.portfolio-item.odd .text {
+    padding-right: 0;
+}
+
+
+.portfolio-item.even .pane{
     /*background: rgba(102, 34, 102, .5);*/
     background: rgba(255, 255, 255, .5);
+    margin-left: -30px;
 }
 
 .portfolio-item.even a{
@@ -552,11 +571,3 @@ body {
     font-size: 20px;
 }
 
-
-/*
-
-#project-body .footer {
-    margin-top: -5px;
-    text-align: left;
-}
-*/
