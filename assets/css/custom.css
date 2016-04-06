@@ -696,6 +696,8 @@ body {
     
 }
 
+
+
 .portfolio-item {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -712,20 +714,13 @@ body {
     font-size: 20px;
 }
 
+
+
 .portfolio-item img {
     width: auto;
     height: 350px;
     border-radius: 15px;
 }
-/*
-   .portfolio-item .col-md-5 + .col-md-7 {
-   margin-left: -40px;
-   }
-
-   .portfolio-item .col-md-7 + .col-md-5 {
-   margin-left: -40px;
-   }
- */
 
 
 
@@ -734,7 +729,6 @@ body {
     
     border-color: rgba(255, 255, 255, 1);
     
-    /*    margin-right: 0;*/
 }
 
 .portfolio-item.odd .text {
@@ -748,19 +742,18 @@ body {
     border-color: rgba(29, 186, 204, 1);
     
     
-    /*margin-left: 0;*/
-    
     
 }
 
 .portfolio-item.even a{
     /*color: rgba(29, 186, 204, 1);*/
     /*color: #662266;*/
-    color: white;
+    /*color: white;*/
+    color: #1dbacc;
 }
 
 .portfolio-item.odd a {
-    color: #1dbacc;
+    color: white;
 }
 
 .btn-default {
@@ -1393,28 +1386,43 @@ body {
     /* CONTACT STYLING */
     #contact-deets {
         font-size: 25px;
+        margin: 0;
+        padding: 0;
     }
+
+    #contact-deets .row {
+        margin: 0;
+        padding: 0;
+    }
+
+    #contact-deets .color-box {
+        margin: 20px 120px;
+        padding: 10px 5px;
+    }
+    
 
     #contact-deets .text {
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 10px;
-        padding-right: 0px;
+        margin: 0;
+        padding: 0;
     }
-
-    
-    
 
     #deets-img-container {
         background: url('../img/defenestration_sm.jpg') no-repeat 0% 0% scroll;
-        height: 368px;
-        width: 354px;
-        margin-top: 30px;
+        background-size: 100% auto;
+        height: 300px;
+        width: 520px;
         float: none;
         border: 5px solid #000;
         border-radius: 15px;
+        margin: 20px;
+        margin-left: 110px;
         
     }
+
+    #deets-img {
+        opacity: 0;
+    }
+    
 }
 
 /* Portrait phones and smaller */
@@ -1692,6 +1700,16 @@ body {
         margin: 0px;
         margin-bottom: 100px;
     }
+
+    #about-body .footnote .container p {
+        font-size: 14px;
+    }
+
+    #about-body .footer.credits .container p{
+        font-size: 14px;
+    }
+    
+    
 
     
     
