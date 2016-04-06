@@ -842,15 +842,71 @@ body {
         width: 980px;
     }
 
-    .col-md-7 .text {
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 18px;
+    .portfolio-item .col-md-7 {
+        width: 50%;
+        
     }
     
-    .portfolio-item h1, h2 {
-        font-size: 20px;
+
+    .portfolio-item.even .col-md-7 {
+
+        margin-left: 50px;
     }
+
+    .portfolio-item.odd .col-md-5 {
+        margin-left: 15px;
+    }
+    
+    
+    .portfolio-item h1 {
+        font-size: 28px;
+    }
+
+    .portfolio-item h2 {
+        font-size: 22px;
+    }
+
+    .portfolio-item h2 span {
+        font-size: 18px;
+    }
+
+    #hack-photo {
+        background: url('../img/hackcessible.jpg') no-repeat center center scroll;
+        background-size: cover;
+        background-position: 0 10px;
+    
+    }
+
+    #hack-photo img {
+        opacity: 0;
+    }
+
+    #left-col {
+        margin-top: -30px;
+        margin-bottom: 5px;
+    }
+
+    #right-col {
+        margin-top: -15px;
+    }
+
+
+    /* CONTACT STYLING */
+    #contact-deets {
+        font-size: 25px;
+    }
+
+    #contact-deets img {
+        width: 500px;
+        height: auto;
+        margin-top: 30px;
+    }
+    
+    
+    
+    
+
+    
     
     
     

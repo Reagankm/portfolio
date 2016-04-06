@@ -1,15 +1,21 @@
-$(window).scroll(function(){
+$( window ).resize(function() {
+    $window = $(window);
+    if ($window .width() > 1199) {
 
-    $('.parallax-image').each(function() {
+        $(window).scroll(function(){
 
+            $('.parallax-image').each(function() {
+
+                
+                var difference = $(window).scrollTop() - $(this).offset().top + 15;
+
+                var half = (difference / 2) + 'px';
+
+                $(this).find('img').css('top', half);
         
-        var difference = $(window).scrollTop() - $(this).offset().top + 15;
-
-        var half = (difference / 2) + 'px';
-
-        $(this).find('img').css('top', half);
-        
-    });
+            });
+        });
+    }
 });
         
         
