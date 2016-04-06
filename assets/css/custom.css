@@ -792,17 +792,33 @@ body {
     text-decoration-color: black;
 }
 
+#deets-img {
+    /*border: 5px solid #000;
+       border-radius: 15px;*/
+    display: none;
+    
+}
 
-#contact-deets img {
+
+#deets-img-container {
+    background: url('../img/defenestration_sm.jpg') no-repeat 0% 0% scroll;
+    height: 385px;
+    width: 565px;
+    margin-top: 30px;
+    float: none;
     border: 5px solid #000;
     border-radius: 15px;
+    /*float: right;*/
+
 }
+
 
 
 .color-box {
     background: #1dbacc;
     border-radius: 10px;
     padding: 15px;
+    margin-left: 20px;
 } 
 
 
@@ -824,23 +840,20 @@ body {
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
-    /* No changes needed */
+    /* PORTFOLIO STYLES */
+    .portfolio-item .small-header {
+        display: none;
+    }
 }
 
-/* Landscape tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
-    .speech-navbar {
-        width: 920px;
-    }
-
-    .masthead-nav > li + li {
-        margin-left: 40px;
-    }
+@media (min-width: 1024px) and (max-width: 1199px) {
 
     .main-image img {
         height: auto;
-        width: 980px;
+        width: 990px;
     }
+    
+    /* PORTFOLIO STYLES */
 
     .portfolio-item .col-md-7 {
         width: 50%;
@@ -870,6 +883,72 @@ body {
         font-size: 18px;
     }
 
+    .portfolio-item .small-header {
+        display: none;
+    }
+
+    /* CONTACT STYLES */
+
+    #deets-img-container {
+        height: 415px;
+        width: 465px;
+        
+    }
+}
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1023px) {
+
+    .speech-navbar {
+        width: 920px;
+    }
+
+    .masthead-nav > li + li {
+        margin-left: 40px;
+    }
+
+    .main-image img {
+        height: auto;
+        width: 980px;
+    }
+
+    /* PORTFOLIO STYLES */
+
+    .portfolio-item .col-md-7 {
+        width: 50%;
+        
+    }
+    
+
+    .portfolio-item.even .col-md-7 {
+
+        margin-left: 50px;
+    }
+
+    .portfolio-item.odd .col-md-5 {
+        margin-left: 15px;
+    }
+    
+    
+    .portfolio-item h1 {
+        font-size: 28px;
+    }
+
+    .portfolio-item h2 {
+        font-size: 22px;
+    }
+
+    .portfolio-item h2 span {
+        font-size: 18px;
+    }
+
+    .portfolio-item .small-header {
+        display: none;
+    }
+
+    /* ABOUT ME STYLES */
+
     #hack-photo {
         background: url('../img/hackcessible.jpg') no-repeat center center scroll;
         background-size: cover;
@@ -878,6 +957,17 @@ body {
     }
 
     #hack-photo img {
+        opacity: 0;
+    }
+
+    #wics-photo {
+        background: url('../img/wics_officers_2.jpg') no-repeat center center scroll;
+        background-size: cover;
+        background-position: 0 10px;
+        
+    }
+
+    #wics-photo img {
         opacity: 0;
     }
 
@@ -901,21 +991,161 @@ body {
         height: auto;
         margin-top: 30px;
     }
-    
-    
-    
-    
 
-    
-    
-    
-    
+    #deets-img-container {
+        height: 368px;
+        width: 450px;
+        
+    }
     
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
 
+    .speech-navbar {
+        width: 760px;
+        
+    }
+
+    .speech-navbar .masthead-nav > li > a {
+        font-size: 20px;
+    }
+    
+    .speech-navbar .masthead-nav > li + li {
+        margin-left: 30px;
+    }
+
+    .main-image img {
+        height: auto;
+        width: 760px;
+    }
+
+    /* PORTFOLIO STYLES */
+
+    .emphatic.divider-bar {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .pane {
+        margin: 25px;
+    }
+
+    .portfolio-item img {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+
+
+    .portfolio-item .col-md-7 {
+        width: 50%;
+        
+    }
+
+    .portfolio-item.even .col-md-7 h1 {
+        display: none;
+    }
+
+    .portfolio-item.even .col-md-7 .toolbox {
+        display: none;
+    }
+
+    .portfolio-item.odd .col-md-7 h1 {
+        display: none;
+    }
+
+    .portfolio-item.odd .col-md-7 .toolbox {
+        display: none;
+    }
+    
+    
+    .portfolio-item h1 {
+        font-size: 28px;
+    }
+
+    .portfolio-item h2 {
+        font-size: 22px;
+    }
+
+    .portfolio-item h2 span {
+        font-size: 18px;
+    }
+
+    /* ABOUT ME STYLES */
+
+    #hack-photo {
+        background: url('../img/hackcessible.jpg') no-repeat center center scroll;
+        background-size: cover;
+        background-position: 0 10px;
+        
+    }
+
+    #hack-photo img {
+        opacity: 0;
+    }
+
+    #wics-photo {
+        background: url('../img/wics_officers_2.jpg') no-repeat center center scroll;
+        background-size: cover;
+        background-position: 0 10px;
+        
+    }
+
+    #wics-photo img {
+        opacity: 0;
+    }
+
+    #left-col {
+        margin-top: -30px;
+        margin-bottom: 5px;
+    }
+
+    #right-col {
+        margin-top: -15px;
+    }
+
+    #about-mid .container .col-md-6 {
+        background: rgba(255, 255, 255, .5);
+        color: black;
+        border-radius: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+
+
+    /* CONTACT STYLING */
+    #contact-deets {
+        font-size: 25px;
+    }
+
+    #contact-deets .text {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+
+    
+    
+
+    #deets-img-container {
+        background: url('../img/defenestration_sm.jpg') no-repeat 0% 0% scroll;
+        height: 368px;
+        width: 354px;
+        margin-top: 30px;
+        float: none;
+        border: 5px solid #000;
+        border-radius: 15px;
+        
+    }
+
+    
+    
+    
+    
 }
 
 /* Landscape phones and portrait tablets */

@@ -1,6 +1,4 @@
-$( window ).resize(function() {
-    $window = $(window);
-    if ($window .width() > 1199) {
+if ($(window).width() > 1023) {
 
         $(window).scroll(function(){
 
@@ -15,8 +13,8 @@ $( window ).resize(function() {
         
             });
         });
-    }
-});
+    
+};
         
         
 
