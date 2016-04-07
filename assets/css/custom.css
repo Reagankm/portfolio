@@ -37,7 +37,6 @@ body {
 
 .masthead-nav
 {
-    /*font-family: 'Spinnaker', Arial, sans-serif;*/
     font-family: 'Rye', Helvetica, serif;
     
     text-shadow: none; /* Prevent inheritence from `body` */
@@ -450,7 +449,6 @@ body {
 }
 
 .node-service .row {
-    font-family: 'Raleway', sans-serif;
     font-size: 22px;
 }
 .node-service .row-1 .triangle {
@@ -493,10 +491,6 @@ body {
     border-color: transparent transparent #1dbacc;
 }
 
-
-.node-service .row h2 {
-    font-family: 'Spinnaker', sans-serif;
-}
 
 .text-container {
     text-align: left;
