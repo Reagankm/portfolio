@@ -45,6 +45,7 @@
 
         <!-- Create speech bubble navbar -->
         <nav class="navbar-fixed-top speech-navbar">
+            
             <ul class="nav masthead-nav">
                 <li class="active"><a href="index.html">HOME</a></li>
                 <li><a id="dynamic-portfolio" data-hover="PORTFOLIO" href="portfolio.html"><span>I BUILD SOFTWARE</span></a></li>
@@ -52,19 +53,94 @@
                 <li><a id="dynamic-contact" data-hover="CONTACT" href="contact.html"><span>REACH ME HERE</span></a></li>
             </ul>
         </nav> <!-- end navbar -->
-
+        <a name="portfolio-top" class="jump"></a>
         <section class="emphatic divider-bar page-heading purple-bar">
-            <a name="portfolio-top" class="jump"></a>
+            
             <p class="top">Portfolio</p>
             <p class="middle">Portfolio</p>
             <p class="bottom">Portfolio</p>
         </section>
 
         <!-- BEGIN PORTFOLIO -->
+        <section id="explanation-bar" class="divider-bar">
+            <div class="container">
+            </div>
+        </section>
 
         <!-- BUTTONS FOR PROJECT ITEM NAVIGATION -->
         <section id="button-bar" class="divider-bar">
+            <h1>Languages: </h1>
             <div class="btn-group" role="group">
+                <!-- ANDROID DROPDOWN -->
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Android
+                        <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#alembic">Alembic</a></li>
+                        <li><a href="#odds-app">What're the Odds</a></li>
+                    </ul>
+                </div><!-- end Android dropdown -->
+
+                <!-- HTML/CSS DROPDOWN -->
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        HTML & CSS
+                        <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#access">Access Map Seattle</a></li>
+                        <li><a href="#aces">Aces Four Construction</a></li>
+                    </ul>
+                </div><!-- end HTML/CSS dropdown -->
+
+                <!-- JAVA DROPDOWN -->
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Java
+                        <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#alembic">Alembic</a></li>
+                        <li><a href="#mit">Web Services Registry</a></li>
+                        <li><a href="#tetris">Creepy Tetris</a></li>
+                        <li><a href="#odds-app">What're the Odds</a></li>
+                    </ul>
+                </div><!-- end JAVA dropdown -->
+
+                <!-- PHP DROPDOWN -->
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        PHP
+                        <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#alembic">Alembic</a></li>
+                    </ul>
+                </div><!-- end PHP dropdown -->
+
+
+                <!-- PYTHON DROPDOWN -->
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Python
+                        <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#twitlisted">TwitListed</a></li>
+                        <li><a href="#knock-knock">Knock Knock Joke Generator</a></li>
+                        <li><a href="#netsuite">Email Automation</a></li>
+                    </ul>
+                </div><!-- end PYTHON dropdown -->
+
+                <!-- SQL DROPDOWN -->
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        SQL, etc.
+                        <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#alembic">Alembic</a></li>
+                        <li><a href="#mit">Web Services Registry</a></li>
+                    </ul>
+                </div><!-- end SQL dropdown -->
+                
+                <!-- 
                 <a href="#alembic" class="btn btn-med btn-default" role="button">Alembic Android Application</a>
                 <a href="#twitlisted" class="btn btn-med btn-default" role="button">TwitListed Twitter Application</a>
             </div>
@@ -85,6 +161,7 @@
                 <a href="#rpg" class="btn btn-med btn-default" role="button">RPG Character Creator</a>
             
                 <a href="#odds-app" class="btn btn-med btn-default" role="button">What're the Odds Android Application</a>
+                -->
             </div>
         
         </section>
@@ -101,9 +178,9 @@
                 </div>
                 <div class="row">
                     
-                    <div class="col-md-5">
+                    <div class="col-md-5" id = "alembic-img-col">
                         <a href="https://drive.google.com/file/d/0B6tbhW7VupPNM3NMcEhyc0ZYMDg/view">
-                            <img src="assets/img/pretty_alembic.png" alt="Screenshot of Alembic Android app"></a>
+                            <img src="assets/img/alembic_screen.jpg" alt="Screenshot of Alembic Android app"></a>
                     </div>
                     <div class="col-md-7 text">
                         
@@ -152,7 +229,7 @@
                     </div><!-- end col -->
                     <div class="col-md-5">
                         <a href="https://github.com/Reagankm/TwitListed">
-                            <img src="assets/img/pretty_twitlisted.png" alt="Screenshot of lists from TwitListed app"></a>
+                            <img src="assets/img/twit_ff.jpg" alt="Screenshot of lists from TwitListed app"></a>
                     </div>
                 </div>
             </div>
@@ -171,7 +248,7 @@
                 <div class="row">
                     <div class="col-md-5">
                         <a href="https://github.com/Reagankm/KnockKnock">
-                            <img src="assets/img/pretty_knock.jpg" alt="Picture of old books"></a>
+                            <img src="assets/img/knock_med.jpg" alt="Picture of old books"></a>
                     </div>
                     <div class="col-md-7 text">
                         
@@ -194,14 +271,14 @@
             <div class="pane">
                 <h1 class="small-header">Web Services Registry & Repository</h1>
                 <div class="toolbox small-header">
-                    <h2>TOOLS: <span>Java, Apache Maven, Apache Derby, Apache Tomcat, Glassfish Metro, ebSML, Git</span></h2>
+                    <h2>TOOLS: <span>Java, Apache Maven, Apache Derby, Apache Tomcat, Glassfish Metro, ebXML, SQL, Git</span></h2>
                 </div>
                 <div class="row">
                     <div class="col-md-7 text">
                         
                         <h1>Web Services Registry</h1>
                         <div class="toolbox">
-                        <h2>TOOLS: <span>Java, Apache Maven, Apache Derby, Apache Tomcat, Glassfish Metro, ebSML, Git</span></h2>
+                        <h2>TOOLS: <span>Java, Apache Maven, Apache Derby, Apache Tomcat, Glassfish Metro, ebXML, SQL, Git</span></h2>
                         </div>
                         <p>A web application that stores addresses and metadata of available services so clients can find and access them.  Fills an information gap between clients and web services to improve interoperability and reduce human time costs of legacy software.</p>
                         <p>Created during my summer internship at MIT Lincoln Laboratory.</p>
@@ -209,7 +286,7 @@
                     
                     <div class="col-md-5">
                         <a href="http://www.ll.mit.edu/">
-                            <img src="assets/img/pretty_telegraph.png" alt="Old fashioned telegraph"></a>
+                            <img src="assets/img/telegraph_lg.jpg" alt="Old fashioned telegraph"></a>
                     </div>
                 </div>
             </div>
@@ -233,7 +310,7 @@
                 <div class="row">
                     <div class="col-md-5">
                         <a href="http://www.accessmapseattle.com/">
-                            <img src="assets/img/pretty_hackcessible.png" alt="Screenshot of Access Map"></a>
+                            <img src="assets/img/hack_screen_lg.jpg" alt="Screenshot of Access Map"></a>
                     </div>
                     <div class="col-md-7 text">
                         
@@ -261,7 +338,7 @@
             <div class="pane">
                 <h1 class="small-header">Creepy Tetris</h1>
                 <div class="toolbox small-header">
-                    <h2>TOOLS: <span>Java Swing, Subversion, Eclipse</span></h2>
+                    <h2>TOOLS: <span>Java, Java Swing, Subversion, Eclipse</span></h2>
                     <h2><a class="btn btn-med btn-default" href="https://youtu.be/No-ZRJ2q1zc">
                         <i class="fa fa-play fa-1x"></i>  Play Demo</a></h2>
                 </div>
@@ -271,7 +348,7 @@
                         
                         <h1>Creepy Tetris</h1>
                         <div class="toolbox">
-                            <h2>TOOLS: <span>Java Swing, Subversion, Eclipse</span></h2>
+                            <h2>TOOLS: <span>Java, Java Swing, Subversion, Eclipse</span></h2>
                             <h2><a class="btn btn-med btn-default" href="https://youtu.be/No-ZRJ2q1zc">
                                 <i class="fa fa-play fa-1x"></i>  Play Demo</a></h2>
                         </div>
@@ -281,7 +358,7 @@
                     
                     <div class="col-md-5">
                         <a href="https://youtu.be/No-ZRJ2q1zc">
-                            <img src="assets/img/pretty_tetris.png" alt="Screenshot of Creepy Tetris"></a>
+                            <img src="assets/img/creepy_lg.jpg" alt="Screenshot of Creepy Tetris"></a>
                     </div>
                 </div>
             </div>
@@ -302,7 +379,7 @@
                 <div class="row">
                     <div class="col-md-5">
                         <a href="http://reagankm.github.io/">
-                            <img src="assets/img/pretty_aces_four.png" alt="Screenshot of new Aces Four website"></a>
+                            <img src="assets/img/aces_lg.jpg" alt="Screenshot of new Aces Four website"></a>
                     </div>
                     <div class="col-md-7 text">
                         
@@ -346,7 +423,7 @@
                     </div>
                     
                     <div class="col-md-5">
-                        <img src="assets/img/pretty_telegraph2.png" alt="Picture of old fashioned telegraph">
+                        <img src="assets/img/telegraph_2.jpg" alt="Picture of old fashioned telegraph">
                     </div>
                 </div>
             </div>
@@ -398,7 +475,7 @@
                         
                         <div class="col-md-7 text">
                             
-                            <h1>Notification Android App</h1>
+                            <h1>What are the Odds Android App</h1>
                             <div class="toolbox">
                                 <h2>TOOLS: <span>Android, Java, Git</span></h2>
                             </div>
@@ -427,3 +504,13 @@
             <p><i class="fa fa-arrow-circle-o-up fa-1x"></i> Return to Top <i class="fa fa-arrow-circle-o-up fa-1x"></i></p></a>
             </div>
         <!-- end footer -->
+
+            <!-- BOOTSTRAP CORE JAVASCRIPT (Place at the end of the document so the page loads faster) ======= -->
+	    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+	    <script src="assets/js/jquery-2.2.2.min.js"></script>
+	    <script src="assets/js/bootstrap.min.js"> </script>
+            <script src="assets/js/main.js"></script>
+
+    </body>
+</html>

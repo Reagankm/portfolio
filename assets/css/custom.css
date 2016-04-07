@@ -605,9 +605,18 @@ body {
 
 /* STYLING FOR PORTFOLIO */
 
+.dropdown-toggle:hover .dropdown-menu {
+    display: block;
+}
+
+#explanation-bar {
+    background: white;
+}
+
+
 #button-bar {
-    /*background: white;*/
-    background: #1dbacc;
+    background: #1dbacc /*url('../img/creature_500.png') right bottom scroll no-repeat*/;
+    padding-bottom: 25px;
 }
 
 #button-bar .btn-group .btn-default {
@@ -619,6 +628,11 @@ body {
     border-radius: 10px;
 }
 
+#button-bar .btn-group + .btn-group {
+    margin-left: 30px;
+}
+
+
 #button-bar a {
     color: #662266;
 }
@@ -626,6 +640,105 @@ body {
 #button-bar .btn + .btn {
     margin-left: 30px;
 }
+
+#button-bar li a {
+    font-family: 'Montserrat Alternates', Arial, sans-serif;
+    font-size: 20px;\
+}
+
+#button-bar h1 {
+    font-size: 45px;
+}
+
+#button-bar .dropdown-menu {
+    background: #1dbacc;
+    color: white;
+    
+}
+
+#button-bar .dropdown-menu a {
+    color: white;
+}
+
+
+
+#button-bar .btn-group li a:hover {
+    background: white;
+    
+    color: #de5464;
+}
+
+/* TEST */
+
+#project-body .pane {
+    overflow: hidden;
+}
+
+
+#alembic-img-col img {
+    /*opacity: 0;*/
+    height: auto;
+    width: 100%;
+    margin-top: -40px;
+    margin-bottom: -40px;
+    margin-left: -80px;
+    
+}
+
+#alembic-img-col img {
+    /*opacity: 0;*/
+    height: auto;
+    width: 100%;
+    margin-top: -40px;
+    margin-bottom: -40px;
+    margin-left: -80px;
+    
+}
+
+.portfolio-item.even img {
+    height: auto;
+    width: 100%;
+    margin-top: -40px;
+    margin-bottom: -40px;
+    margin-left: -80px;
+    border-radius: 0;
+    
+}
+
+.portfolio-item.odd img {
+    height: auto;
+    width: 100%;
+    margin-top: -40px;
+    margin-bottom: -40px;
+    margin-right: -80px;
+    border-radius: 0;
+    
+}
+
+.pane .col-md-5 {
+    padding: 0;
+}
+
+
+
+
+/*
+#alembic-test .pane {
+    background: url('../img/alembic_screen.jpg') no-repeat center center scroll;
+    background-size: auto 100%;
+    background-position: left;
+    height: 100%;
+}
+
+/*
+#alembic-img-col {
+    background: url('../img/pretty_alembic.png') no-repeat center center scroll;
+    background-size: cover;
+    height: 100%;
+
+}*/
+
+
 
 #project-body .portfolio-item a.jump {
     
@@ -744,13 +857,13 @@ body {
     font-size: 20px;
 }
 
-.portfolio-item.even img {
+/*.portfolio-item.even img {
     margin-left: -10px;
 }
 
 .portfolio-item.odd img {
     align: right;
-}
+}*/
 
 .pane {
     margin: 25px 100px;
