@@ -22,7 +22,7 @@ body {
 
 body {
 
-    background: url('../img/emp_index.jpg') no-repeat center center fixed;
+    background: url('../img/emp_index_50.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -326,7 +326,7 @@ body {
 /* Top banner for emphatic heading */
 
 #top-banner {
-    background: url('../img/emp_about.jpg') 50% 0 repeat fixed;    
+    background: url('../img/emp_about_50.jpg') 50% 0 repeat scroll;    
     text-shadow: 2px 2px 3px #000;
 }
 
@@ -410,7 +410,7 @@ body {
     font-family: 'Milonga', Helvetica, sans-serif;
     color: white;
     text-align: center;
-    background: url('../img/emp_about.jpg') 50% 0 repeat fixed;
+    background: url('../img/emp_about_50.jpg') 50% 0 repeat scroll;
 }
 
 #about-top p {
@@ -427,7 +427,7 @@ body {
 
 
 #about-mid {
-    background: url('../img/laptop.jpg') no-repeat center center fixed;
+    background: url('../img/laptop_50.jpg') no-repeat center center fixed;
     height: 100%
     color: white;
     font-family: 'Milonga', Helvetica, serif;
@@ -1666,7 +1666,7 @@ body {
 
 
     #about-mid {
-        background: url('../img/laptop.jpg') no-repeat scroll;
+        background: url('../img/laptop_50.jpg') no-repeat scroll;
         background-size: auto 100%;
         background-position: 65% 75%;
     }
