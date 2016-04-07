@@ -2,7 +2,7 @@
    Colors:
    Blue: #1dbacc rgb: 29, 186, 204
    Purple: #662266 rgb: 102,34,102
-   Pink: #DE5464
+   Pink: #DE5464 rgb: 222, 84, 100
  */
 
 /* Basics */
@@ -564,33 +564,15 @@ body {
 #about-end img {
     position: absolute;
     left: 50%;
-    /*position: relative;
-       bottom: -407px;*/
 }
 
 /* ABOUT BOTTOM WITH WOMAN AND COLUMNS */
-/*#about-bottom.row {
-    height: auto;
-}
 
-#about-overlap {
-    font-family: 'Milonga', Helvetica, sans-serif;
-}
-
-
-#about-overlap.row {
-    color: black;
-    margin-top: -300px;
-    margin-bottom: -42px;
+#lady-footer {
+    background: white url('../img/cheeky_400.png') center bottom/40% scroll no-repeat;
     
 }
 
-#about-overlap.row a {
-    color: black;
-    text-decoration: underline;
-    font-family: 'Rye', Helvetica, san-serif;
-    padding-bottom: 0;
-}*/
 
 #lady-footer .row {
     margin-bottom: 0;
@@ -609,10 +591,6 @@ body {
     font-family: 'Rye', Helvetica, san-serif;
 }   
 
-#lady-footer {
-    background: white url('../img/cheeky_400.png') center bottom/40% scroll no-repeat;
-    
-}
 
 
 
@@ -626,6 +604,93 @@ body {
 
 
 /* STYLING FOR PORTFOLIO */
+
+#button-bar {
+    /*background: white;*/
+    background: #1dbacc;
+}
+
+#button-bar .btn-group .btn-default {
+    background: /*#662266*/ white;
+    color: /*white*/ #662266;
+    border: 3px solid #662266;
+    font-family: 'Montserrat Alternates', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#button-bar a {
+    color: #662266;
+}
+
+#button-bar .btn + .btn {
+    margin-left: 30px;
+}
+
+#project-body .portfolio-item a.jump {
+    
+    position: relative;
+    top:-100px;
+    display: block;
+    height: 0;
+    width:0;
+}
+
+#return-to-top p{
+    
+    font-size: 16px;
+    margin: 0;
+    background: #de5464;
+    padding: 5px;
+    border-radius: 5px 5px 0 0px;
+}
+
+#return-to-top a:hover {
+    text-decoration: none;
+}
+
+
+/*#return-to-top.navbar {
+    position: fixed !important;
+    bottom: 0;
+    right: 0;
+    
+}*/
+
+#return-to-top.navbar-fixed-bottom {
+    right: 0;
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .portfolio-item {
     color: #000;
@@ -685,7 +750,6 @@ body {
 
 .portfolio-item.odd img {
     align: right;
-    /*margin-right: -10px;*/
 }
 
 .pane {
@@ -725,7 +789,7 @@ body {
 
 
 .portfolio-item.odd .pane{
-    background: rgba(29, 186, 204, .8);
+    background: rgba(29, 186, 204, 1);
     
     border-color: rgba(255, 255, 255, 1);
     
@@ -738,7 +802,7 @@ body {
 
 .portfolio-item.even .pane{
     
-    background: rgba(255, 255, 255, .8);
+    background: rgba(255, 255, 255, 1);
     border-color: rgba(29, 186, 204, 1);
     
     

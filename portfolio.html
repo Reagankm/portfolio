@@ -7,7 +7,7 @@
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="description" content="">
         <meta name="author" content="Reagan Middlebrook">
-        <link rel="icon" href="assets/img/favicon.ico">
+        <link rel="icon" hrefhttps://docs.gimp.org/en/gimp-using-rectangular.html="assets/img/favicon.ico">
 
         <title>Reagan Middlebrook | Portfolio</title>
 
@@ -54,6 +54,7 @@
         </nav> <!-- end navbar -->
 
         <section class="emphatic divider-bar page-heading purple-bar">
+            <a name="portfolio-top" class="jump"></a>
             <p class="top">Portfolio</p>
             <p class="middle">Portfolio</p>
             <p class="bottom">Portfolio</p>
@@ -61,8 +62,36 @@
 
         <!-- BEGIN PORTFOLIO -->
 
+        <!-- BUTTONS FOR PROJECT ITEM NAVIGATION -->
+        <section id="button-bar" class="divider-bar">
+            <div class="btn-group" role="group">
+                <a href="#alembic" class="btn btn-med btn-default" role="button">Alembic Android Application</a>
+                <a href="#twitlisted" class="btn btn-med btn-default" role="button">TwitListed Twitter Application</a>
+            </div>
+            <div class="btn-group" role="group">
+                <a href="#knock-knock" class="btn btn-med btn-default" role="button">Knock Knock Joke Generator</a>
+                <a href="#mit" class="btn btn-med btn-default" role="button">Web Services Registry</a>
+            </div>
+            <div class="btn-group" role="group">
+                <a href="#access" class="btn btn-med btn-default" role="button">Access Map Seattle Web Application</a>
+                <a href="#tetris" class="btn btn-med btn-default" role="button">Creepy Tetris</a>
+            </div>
+            <div class="btn-group" role="group">
+                <a href="#aces" class="btn btn-med btn-default" role="button">Aces Four Construction Website</a>
+            
+                <a href="#netsuite" class="btn btn-med btn-default" role="button">Netsuite Email Automation Script</a>
+            </div>
+            <div class="btn-group" role="group">
+                <a href="#rpg" class="btn btn-med btn-default" role="button">RPG Character Creator</a>
+            
+                <a href="#odds-app" class="btn btn-med btn-default" role="button">What're the Odds Android Application</a>
+            </div>
+        
+        </section>
+
         <!-- ALEMBIC SECTION -->
         <section class="portfolio-item even">
+            <a name="alembic" class="jump"></a>
             <div class="pane">
                 <h1 class="small-header">Alembic Android App</h1>
                 <div class="toolbox small-header">
@@ -81,8 +110,7 @@
                         <h1>Alembic Android App</h1>
                         <div class="toolbox">
                             <h2>TOOLS: <span>Android, Java, MySQL, SQLite, PHP, JSoup</span></h2>
-                            <!-- 
-                            <h2><a href="https://drive.google.com/file/d/0B6tbhW7VupPNM3NMcEhyc0ZYMDg/view">Demo available here</a></h2>-->
+           
                             <h2><a class="btn btn-med btn-default" href="https://drive.google.com/file/d/0B6tbhW7VupPNM3NMcEhyc0ZYMDg/view">
                                 <i class="fa fa-play fa-1x"></i>  Play Demo</a></h2>
                         </div>
@@ -95,13 +123,13 @@
 
         <!-- TWITLISTED SECTION -->
         <section class="portfolio-item odd">
+            <a name="twitlisted" class="jump"></a>
             <div class="pane">
                 <h1 class="small-header">TwitListed Twitter App</h1>
                 <div class="toolbox small-header">
                     <h2>TOOLS: <span>Python, Tweepy, Flask, Git</span></h2>
                     <h2><a class="btn btn-med btn-default" href="https://github.com/Reagankm/TwitListed">
                         <i class="fa fa-code fa-1x"></i>  View Code</a></h2>
-                    <!-- <h2><a href="https://github.com/Reagankm/TwitListed">Code available here</a></h2> -->
                 </div>
                 <div class="row">
                     <div class="col-md-7 text">
@@ -111,7 +139,6 @@
                             <h2>TOOLS: <span>Python, Tweepy, Flask, Git</span></h2>
                             <h2><a class="btn btn-med btn-default" href="https://github.com/Reagankm/TwitListed">
                                 <i class="fa fa-code fa-1x"></i>  View Code</a></h2>
-                            <!-- <h2><a href="https://github.com/Reagankm/TwitListed">Code available here</a></h2> -->
                         </div>
                         <p>Calculates the average tweet frequency of every Twitter account you follow then creates and sorts them into four new Twitter lists:
                             <ul>
@@ -133,13 +160,13 @@
 
         <!-- KNOCK KNOCK JOKE GENERATOR -->
         <section class="portfolio-item even">
+            <a name="knock-knock" class="jump"></a>
             <div class="pane">
                 <h1 class="small-header">Knock Knock Joke Generator</h1>
                 <div class="toolbox small-header">
                     <h2>TOOLS: <span>Python, NLTK, Github</span></h2>
                     <h2><a class="btn btn-med btn-default" href="https://github.com/Reagankm/KnockKnock">
                         <i class="fa fa-code fa-1x"></i>  View Code</a></h2>
-                    <!-- <h2><a href="https://github.com/Reagankm/KnockKnock">Code available here</a></h2> -->
                 </div>
                 <div class="row">
                     <div class="col-md-5">
@@ -153,7 +180,6 @@
                             <h2>TOOLS: <span>Python, NLTK, Github</span></h2>
                             <h2><a class="btn btn-med btn-default" href="https://github.com/Reagankm/KnockKnock">
                                 <i class="fa fa-code fa-1x"></i>  View Code</a></h2>
-                        <!-- <h2><a href="https://github.com/Reagankm/KnockKnock">Code available here</a></h2> -->
                         </div>
                         <p>Accepts a user-input value for "Who's there" then constructs a knock-knock joke around it by searching text corpuses for likely phrases that can be used as a punchline.</p>
                         <p>Created for an Artificial Intelligence class and because I'm fascinated by NLP.</p>
@@ -164,8 +190,9 @@
 
         <!-- WEB SERVICE REGISTRY -->
         <section class="portfolio-item odd">
+            <a name="mit" class="jump"></a>
             <div class="pane">
-                <h1 class="small-header">Web Services Registry</h1>
+                <h1 class="small-header">Web Services Registry & Repository</h1>
                 <div class="toolbox small-header">
                     <h2>TOOLS: <span>Java, Apache Maven, Apache Derby, Apache Tomcat, Glassfish Metro, ebSML, Git</span></h2>
                 </div>
@@ -190,6 +217,7 @@
 
         <!-- ACCESS MAP SEATTLE -->
         <section class="portfolio-item even">
+            <a name="access" class="jump" ></a>
             <div class="pane">
                 <h1 class="small-header">Access Map Seattle Web Application</h1>
                 <div class="toolbox small-header">
@@ -201,10 +229,6 @@
                             <i class="fa fa-code fa-1x"></i>  View Code</a>
                         <a class="btn btn-med btn-default" href="http://www.geekwire.com/2015/app-that-helps-people-in-wheelchairs-plan-travel-routes-wins-first-place-at-civic-hackathon/">
                             <i class="fa fa-bullhorn fa-1x"></i>  Publicity</a></h2>
-                    <!-- 
-                         <a href="http://www.accessmapseattle.com/">Website located here</a></h2>
-                         <h2><a href="https://github.com/Hackcessible/hackcessible-webapp">Code available here</a></h2>
-                         <h2><a href="http://www.geekwire.com/2015/app-that-helps-people-in-wheelchairs-plan-travel-routes-wins-first-place-at-civic-hackathon/">Publicity is here</a></h2> -->
                 </div>
                 <div class="row">
                     <div class="col-md-5">
@@ -223,10 +247,6 @@
                                     <i class="fa fa-code fa-1x"></i>  View Code</a>
                                 <a class="btn btn-med btn-default" href="http://www.geekwire.com/2015/app-that-helps-people-in-wheelchairs-plan-travel-routes-wins-first-place-at-civic-hackathon/">
                                     <i class="fa fa-bullhorn fa-1x"></i>  Publicity</a></h2>
-                            <!-- 
-                                <a href="http://www.accessmapseattle.com/">Website located here</a></h2>
-                        <h2><a href="https://github.com/Hackcessible/hackcessible-webapp">Code available here</a></h2>
-                        <h2><a href="http://www.geekwire.com/2015/app-that-helps-people-in-wheelchairs-plan-travel-routes-wins-first-place-at-civic-hackathon/">Publicity is here</a></h2> -->
                         </div>
                         <p>Provides accessibility information to help the mobility impaired plan their routes in Seattle.  It overlays a map with bus stops, curb ramps, stairs, public elevators, color coding to indicate the grade of inclines, and construction permits that may indicate closed sidewalks.</p>
                         <p>Created for and the winner of the City of Seattle's Hack the Commute 2015.</p>
@@ -237,14 +257,13 @@
 
         <!-- CREEPY TETRIS -->
         <section class="portfolio-item odd">
+            <a name="tetris" class="jump"></a>
             <div class="pane">
                 <h1 class="small-header">Creepy Tetris</h1>
                 <div class="toolbox small-header">
                     <h2>TOOLS: <span>Java Swing, Subversion, Eclipse</span></h2>
                     <h2><a class="btn btn-med btn-default" href="https://youtu.be/No-ZRJ2q1zc">
                         <i class="fa fa-play fa-1x"></i>  Play Demo</a></h2>
-                    <!-- 
-                         <h2><a href="https://youtu.be/No-ZRJ2q1zc">Demo available here</a></h2> -->
                 </div>
                 <div class="row">
                     
@@ -255,8 +274,6 @@
                             <h2>TOOLS: <span>Java Swing, Subversion, Eclipse</span></h2>
                             <h2><a class="btn btn-med btn-default" href="https://youtu.be/No-ZRJ2q1zc">
                                 <i class="fa fa-play fa-1x"></i>  Play Demo</a></h2>
-                            <!-- 
-                                 <h2><a href="https://youtu.be/No-ZRJ2q1zc">Demo available here</a></h2> -->
                         </div>
                         <p>A Tetris game with a Creepy mode that includes a storyline that varies based on win or loss state, dynamic wallpaper, atmostpheric music and ghostly sound effects, and custom voice recordings indicating increasing distress as the blocks grow higher and relief when lines are cleared.</p>
                         <p>Created as a class assignment where the extra credit option was to "add one additional feature to the basic Tetris game".</p>
@@ -272,6 +289,7 @@
 
         <!-- ACES FOUR -->
         <section class="portfolio-item even">
+            <a name="aces" class="jump"></a>
             <div class="pane">
                 <h1 class="small-header">Aces Four Construction Website</h1>
                 <div class="toolbox small-header">
@@ -280,10 +298,6 @@
                         <i class="fa fa-desktop fa-1x"></i>  Website</a>
                         <a class="btn btn-med btn-default" href="http://www.github.com/Reagankm/reagankm.github.io">
                             <i class="fa fa-code fa-1x"></i>  View Code</a></h2>
-                    
-                    <!-- <h2><a href="http://reagankm.github.io/">Website located here</a></h2>
-                         
-                         <h2><a href="http://www.github.com/Reagankm/reagankm.github.io">Code available here</a></h2>-->
                 </div>
                 <div class="row">
                     <div class="col-md-5">
@@ -313,6 +327,7 @@
 
         <!-- NETSUITE -->
         <section class="portfolio-item odd">
+            <a name="netsuite" class="jump"></a>
             <div class="pane">
                 <h1 class="small-header">Netsuite Automation Script</h1>
                 <div class="toolbox small-header">
@@ -326,26 +341,27 @@
                         <div class="toolbox">
                             <h2>TOOLS: <span>Python, Selenium</span></h2>
                         </div>
-                            <p>Automates operation of a customer relationship management website based on input from an Excel file, thereby saving significant time and effort in resolving a large number of identical cases.</p>
-                            <p>Created to solve a problem where a computer glitch had caused thousands of nonsense customer emails to enter a call center's customer relationship management site, creating thousands of unresolved cases which interfered with accurate reporting. Each case had to be individually opened and required fields appropriately selected before the case could be closed.</p>
-                        </div>
-                        
-                        <div class="col-md-5">
-                            <img src="assets/img/pretty_telegraph2.png" alt="Picture of old fashioned telegraph">
-                        </div>
+                        <p>Automates operation of a customer relationship management website based on input from an Excel file, thereby saving significant time and effort in resolving a large number of identical cases.</p>
+                        <p>Created to solve a problem where a computer glitch had caused thousands of nonsense customer emails to enter a call center's customer relationship management site, creating thousands of unresolved cases which interfered with accurate reporting. Each case had to be individually opened and required fields appropriately selected before the case could be closed.</p>
+                    </div>
+                    
+                    <div class="col-md-5">
+                        <img src="assets/img/pretty_telegraph2.png" alt="Picture of old fashioned telegraph">
                     </div>
                 </div>
+            </div>
         </section><!-- END NETSUITE -->
 
         <!-- CHARACTER CREATOR -->
         <section class="portfolio-item even">
+            <a name="rpg" class="jump"></a>
             <div class="pane">
                 <h1 class="small-header">RPG Character Creator</h1>
                 <div class="toolbox small-header">
                     <h2>TOOLS: <span>Visual Basic, Visual Studio</span></h2>
                     <h2><a class="btn btn-med btn-default" href="http://www.github.com/Reagankm/CharacterCreator">
                         <i class="fa fa-code fa-1x"></i>  View Code</a></h2>
-                    <!-- <h2><a href="http://www.github.com/Reagankm/CharacterCreator">Code available here</a></h2>-->
+
                 </div>
                 <div class="row">
                     <div class="col-md-5">
@@ -371,28 +387,30 @@
 
         <!-- WHAT ARE THE ODDS -->
         <section class="portfolio-item odd">
-            <div class="pane">
-                <h1 class="small-header">Notification Android App</h1>
-                <div class="toolbox small-header">
-                    <h2>TOOLS: <span>Android, Java, Git</span></h2>
-                </div>
-                <div class="row">
+            <a name="odds-app" class="jump"></a>
+                <div class="pane">
                     
-                    <div class="col-md-7 text">
+                    <h1 class="small-header">What are the Odds Android App</h1>
+                    <div class="toolbox small-header">
+                        <h2>TOOLS: <span>Android, Java, Git</span></h2>
+                    </div>
+                    <div class="row">
                         
-                        <h1>Notification Android App</h1>
-                        <div class="toolbox">
-                            <h2>TOOLS: <span>Android, Java, Git</span></h2>
+                        <div class="col-md-7 text">
+                            
+                            <h1>Notification Android App</h1>
+                            <div class="toolbox">
+                                <h2>TOOLS: <span>Android, Java, Git</span></h2>
+                            </div>
+                            <p>At a user-selected frequency, displays the odds of a random unlikely event paired with the odds of being in a distracted driving crash.  Displays notifications only while phone is in use and not while locked or in a rest state, to avoid causing distraction while driving.</p>
+                            <p>Created for and won 2nd place at the 2014 UW Seattle chapter of the International Women's Day Hackathon.</p>
                         </div>
-                        <p>At a user-selected frequency, displays the odds of a random unlikely event paired with the odds of being in a distracted driving crash.  Displays notifications only while phone is in use and not while locked or in a rest state, to avoid causing distraction while driving.</p>
-                        <p>Created for and won 2nd place at the 2014 UW Seattle chapter of the International Women's Day Hackathon.</p>
-                    </div>
-                    
-                    <div class="col-md-5">
-                        <img src="assets/img/pretty_phone.png" alt="Two people on a tin can phone">
+                        
+                        <div class="col-md-5">
+                            <img src="assets/img/pretty_phone.png" alt="Two people on a tin can phone">
+                        </div>
                     </div>
                 </div>
-            </div>
         </section><!-- END RPG -->
 
         <section class="footer credits">
@@ -402,3 +420,10 @@
                 <p><small>Credits: Background image courtesy of <a href="https://www.flickr.com/photos/logicalrealist/2312803171">Sean Munson</a>. Etching of a telegraph courtesy of the <a href="https://www.flickr.com/photos/britishlibrary/11306570943">British Library</a>. Drawing of people with a tin can telephone courtesy of the <a href="https://www.flickr.com/photos/britishlibrary/11096145013">British Library</a>.</small></p>
             </div>
         </section>
+
+        <!-- floating RETURN TO TOP section  -->
+        
+        <a href="#portfolio-top"><div class="navbar-fixed-bottom" id="return-to-top" >
+            <p><i class="fa fa-arrow-circle-o-up fa-1x"></i> Return to Top <i class="fa fa-arrow-circle-o-up fa-1x"></i></p></a>
+            </div>
+        <!-- end footer -->
