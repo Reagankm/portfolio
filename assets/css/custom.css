@@ -22,7 +22,7 @@ body {
 
 body {
 
-    background: url('../img/emp_sm.png') no-repeat center center fixed;
+    background: url('../img/emp_index.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -326,7 +326,7 @@ body {
 /* Top banner for emphatic heading */
 
 #top-banner {
-    background: url('../img/emp_sm.png') 50% 0 repeat fixed;    
+    background: url('../img/emp_about.jpg') 50% 0 repeat fixed;    
     text-shadow: 2px 2px 3px #000;
 }
 
@@ -410,7 +410,7 @@ body {
     font-family: 'Milonga', Helvetica, sans-serif;
     color: white;
     text-align: center;
-    background: url('../img/emp_sm.png') 50% 0 repeat fixed;
+    background: url('../img/emp_about.jpg') 50% 0 repeat fixed;
 }
 
 #about-top p {
@@ -427,7 +427,7 @@ body {
 
 
 #about-mid {
-    background: url('../img/laptop.JPG') no-repeat center center fixed;
+    background: url('../img/laptop.jpg') no-repeat center center fixed;
     height: 100%
     color: white;
     font-family: 'Milonga', Helvetica, serif;
@@ -510,10 +510,10 @@ body {
     font-size: 24px;
 }
 
-#ghc-photo img {
+/*#ghc-photo img {
     margin-top: -50px;
     
-}
+}*/
 
 .parallax-image {
     height: 500px;
@@ -563,7 +563,7 @@ body {
 /* ABOUT BOTTOM WITH WOMAN AND COLUMNS */
 
 #lady-footer {
-    background: white url('../img/cheeky_400.png') center bottom/40% scroll no-repeat;
+    background: white url('../img/cheeky_400.gif') center bottom/40% scroll no-repeat;
     
 }
 
@@ -901,7 +901,7 @@ body {
 
 
 #deets-img-container {
-    background: url('../img/defenestration_sm.jpg') no-repeat 0% 0% scroll;
+    background: url('../img/defenestration.jpg') no-repeat 0% 0% scroll;
     height: 385px;
     width: 565px;
     margin-top: 30px;
@@ -1065,7 +1065,7 @@ body {
     }
 
     #wics-photo {
-        background: url('../img/wics_officers_2.jpg') no-repeat center center scroll;
+        background: url('../img/wics_officers_1.jpg') no-repeat center center scroll;
         background-size: cover;
         background-position: 0 10px;
         
@@ -1211,7 +1211,7 @@ body {
     }
 
     #wics-photo {
-        background: url('../img/wics_officers_2.jpg') no-repeat scroll;
+        background: url('../img/wics_officers_1.jpg') no-repeat scroll;
         background-size: cover;
         background-position: 0 10px;
         
@@ -1297,7 +1297,7 @@ body {
     
 
     #deets-img-container {
-        background: url('../img/defenestration_sm.jpg') no-repeat 0% 0% scroll;
+        background: url('../img/defenestration.jpg') no-repeat 0% 0% scroll;
         height: 368px;
         width: 354px;
         margin-top: 30px;
@@ -1409,7 +1409,7 @@ body {
     }
 
     #wics-photo {
-        background: url('../img/wics_officers_2.jpg') no-repeat center center scroll;
+        background: url('../img/wics_officers_1.jpg') no-repeat center center scroll;
         background-size: cover;
         background-position: 0 10px;
         
@@ -1488,7 +1488,7 @@ body {
     }
 
     #deets-img-container {
-        background: url('../img/defenestration_sm.jpg') no-repeat 0% 0% scroll;
+        background: url('../img/defenestration.jpg') no-repeat 0% 0% scroll;
         background-size: 100% auto;
         height: 300px;
         width: 520px;
@@ -1666,7 +1666,7 @@ body {
 
 
     #about-mid {
-        background: url('../img/laptop.JPG') no-repeat scroll;
+        background: url('../img/laptop.jpg') no-repeat scroll;
         background-size: auto 100%;
         background-position: 65% 75%;
     }
@@ -1702,7 +1702,7 @@ body {
     }
 
     #mit-photo {
-        background: url('../img/mit_group_pic.jpg') no-repeat center center scroll;
+        background: url('../img/mit_interns.jpg') no-repeat center center scroll;
         background-size: cover;
         background-position: 50% 10%;
         
@@ -1716,7 +1716,7 @@ body {
     
 
     #wics-photo {
-        background: url('../img/wics_officers_2.jpg') no-repeat center center scroll;
+        background: url('../img/wics_officers_1.jpg') no-repeat center center scroll;
         background-size: cover;
         background-position: 50% 10%;
         
@@ -1821,7 +1821,7 @@ body {
    
 
     #deets-img-container {
-        background: url('../img/defenestration_sm.jpg') no-repeat 0% 0% scroll;
+        background: url('../img/defenestration.jpg') no-repeat 0% 0% scroll;
         background-size: auto 100%;
         height: 300px;
         width: 297px;
