@@ -464,64 +464,62 @@ body {
 }
 
 /**************** ABOUT ME - ALL SIZES ******************/
-/* ABOUT ME */
-/* Portrait for About Me */
-#portrait {
-  border-radius: 100% 50%;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  
+
+/* INTRODUCTION - ALL SIZES */
+#about-intro {
+  background: url('../img/emp_about_50.jpg') 50% 0 repeat scroll;
+  color: white;
+  font-family: 'Milonga', Helvetica, sans-serif;
+  text-align: center;
 }
 
+#about-intro h1 {
+  font-family: 'Rye', Helvetica, serif;
+  font-size: 50px;
+  padding-top: 45px;
+}
+
+#about-intro p {
+  font-size: 26px;
+  padding: 45px;  
+}
+
+#portrait {
+  border-radius: 100% 50%;
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+
+/* EXPOSITION - ALL SIZES */
+#about-expo {
+  background: url('../img/laptop_50.jpg') no-repeat center center fixed;
+  font-family: 'Milonga', Helvetica, serif;  
+  font-size: 26px;
+}
+
+#about-expo .container {
+  padding: 100px 35px;
+}
+
+#about-expo p + p {
+  margin-top: 30px;
+}
+
+
+/* DEVELOPER FAME POINTS - ALL SIZES */
 #dev-fame-section {
   padding: 25px;
 }
 
-#about-top {
-  font-family: 'Milonga', Helvetica, sans-serif;
-  color: white;
-  text-align: center;
-  background: url('../img/emp_about_50.jpg') 50% 0 repeat scroll;
+/* STYLING FOR TRAPEZOIDS - ALL SIZES*/
+.node-service .row {
+  font-size: 22px;
 }
 
-#about-top p {
-  font-size: 26px;
-  padding: 45px;
-  
-}
-
-#about-top h1 {
-  font-family: 'Rye', Helvetica, serif;
-  padding-top: 45px;
-  font-size: 50px;
-}
-
-
-#about-mid {
-  background: url('../img/laptop_50.jpg') no-repeat center center fixed;
-  height: 100%
-  color: white;
-  font-family: 'Milonga', Helvetica, serif;
-  
-  font-size: 26px;
-}
-
-#about-mid .container {
-  padding: 100px 35px;
-}
-
-#about-mid p + p {
-  margin-top: 30px;
-}
-
-/* for trapezoids */
 .node-service .row-1 {
   background-color: #626;
 }
 
-.node-service .row {
-  font-size: 22px;
-}
 .node-service .row-1 .triangle {
   border-color: transparent transparent #626;
 }
@@ -534,7 +532,6 @@ body {
 .node-service .row-2 .field-item {
   color: #000;
 }
-
 
 .node-service .row-2 .triangle {
   border-color: transparent transparent #1dbacc;
@@ -557,35 +554,29 @@ body {
   color: #000;
 }
 
-
 .node-service .row-4 .triangle {
   border-color: transparent transparent #1dbacc;
 }
 
-
+/* Text in trapezoids */
 .text-container {
   text-align: left;
 }
 
-/* Text in trapezoids */
 .field-item {
   font-family: 'Rye', Helvetica, serif;
-  text-align: center;
   font-size: 30px;
+  text-align: left;
 }
 
 .field-item p {
   font-family: 'Milonga', Arial, sans-serif;
+  font-size: 24px;
   line-height: 33px;
   text-align: left;
-  font-size: 24px;
 }
 
-/*#ghc-photo img {
-   margin-top: -50px;
-   
-   }*/
-
+/* Parallax for images - all sizes*/
 .parallax-image {
   height: 500px;
   position: relative;
@@ -599,9 +590,7 @@ body {
   height: auto;
 }
 
-
-
-/* Footnote for About Me page */
+/* FOOTNOTE - ALL SIZES*/
 .footnote {
   background: #000;
   font-family: 'Milonga', Helvetica, serif;
@@ -612,42 +601,11 @@ body {
   text-decoration: none;
 }
 
-#about-end {
-  background: #fff;
-  
-}
 
-#about-end .container .row {
-  color: black;
-}
-
-#about-end .container {
-  position: relative;
-}
-
-
-#about-end img {
-  position: absolute;
-  left: 50%;
-}
-
-/* ABOUT BOTTOM WITH WOMAN AND COLUMNS */
+/* FOOTER WITH WOMAN - ALL SIZES */
 
 #lady-footer {
-  background: white url('../img/cheeky_400.gif') center bottom/40% scroll no-repeat;
-  
-}
-
-
-#lady-footer .row {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-
-#lady-footer p {
-  color: black;
-  font-family: 'Milonga', Helvetica, sans-serif;
+  background: white url('../img/cheeky_400.gif') center bottom/40% scroll no-repeat;  
 }
 
 #lady-footer a {
@@ -656,8 +614,15 @@ body {
   font-family: 'Rye', Helvetica, san-serif;
 }   
 
+#lady-footer p {
+  color: black;
+  font-family: 'Milonga', Helvetica, sans-serif;
+}
 
-
+#lady-footer .row {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 
 #left-col {
   padding: 40px 25px;
@@ -667,9 +632,7 @@ body {
   padding: 50px 25px;
 }
 
-
-
-/* STYLING FOR CONTACT PAGE */
+/**************** CONTACT - ALL SIZES ******************/
 
 
 #contact-heading {
@@ -1066,7 +1029,7 @@ body {
 
   
 
-  #about-mid .container .col-md-6 {
+  #about-expo .container .col-md-6 {
     background: rgba(255, 255, 255, .5);
     color: black;
     border-radius: 15px;
@@ -1276,7 +1239,7 @@ body {
     margin-top: -15px;
   }
 
-  #about-mid .container .col-md-6 {
+  #about-expo .container .col-md-6 {
     background: rgba(255, 255, 255, .5);
     color: black;
     border-radius: 15px;
@@ -1482,7 +1445,7 @@ body {
   }
   
 
-  #about-top .container .row .col-md-7 {
+  #about-intro .container .row .col-md-7 {
     margin-top: -40px;
     padding:0;
     margin-left: 0;
@@ -1490,7 +1453,7 @@ body {
     
   }
 
-  #about-top p {
+  #about-intro p {
     padding: 25px 5px;
     
   }
@@ -1501,14 +1464,14 @@ body {
   }
 
 
-  #about-mid {
+  #about-expo {
     background: url('../img/laptop_50.jpg') no-repeat scroll;
     background-size: auto 100%;
     background-position: 65% 75%;
   }
   
   
-  #about-mid .container {
+  #about-expo .container {
     padding:  20px 10px;
   }
   
@@ -1584,7 +1547,7 @@ body {
   
 
 
-  #about-mid .container .col-md-6 {
+  #about-expo .container .col-md-6 {
     background: rgba(255, 255, 255, .5);
     color: black;
     border-radius: 15px;
