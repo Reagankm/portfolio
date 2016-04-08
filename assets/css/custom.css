@@ -227,10 +227,9 @@ body {
 /**************** PORTFOLIO - ALL SIZES ******************/
 
 #project-body {
-  background: #de5464 /*url('../img/creature_500.png') 50% 0 repeat scroll*/;
+  background: #de5464 ;
   overflow-x: hidden;
 }
-
 
 #left_creature {
   margin-top: 20px;
@@ -240,41 +239,14 @@ body {
   margin-top: 30px;
 }
 
-
 #white-bar {
   background: white;
 }
 
+/* BUTTON BAR - ALL SIZE */
 #button-bar {
   background: #1dbacc;
   padding-bottom: 25px;
-}
-
-#button-bar .btn-group .btn-default {
-  background: /*#626*/ white;
-  color: /*white*/ #626;
-  border: 3px solid #626;
-  font-family: 'Montserrat Alternates', Arial, sans-serif;
-  font-size: 20px;
-  border-radius: 10px;
-}
-
-#button-bar .btn-group + .btn-group {
-  margin-left: 10px;
-}
-
-
-#button-bar a {
-  color: #626;
-}
-
-#button-bar .btn + .btn {
-  margin-left: 30px;
-}
-
-#button-bar li a {
-  font-family: 'Montserrat Alternates', Arial, sans-serif;
-  font-size: 20px;\
 }
 
 #button-bar h1 {
@@ -282,98 +254,94 @@ body {
   padding-top: 15px;
 }
 
+#button-bar a {
+  color: #626;
+}
+
+#button-bar li a {
+  font-family: 'Montserrat Alternates', Arial, sans-serif;
+  font-size: 20px;\
+}
+
+/* Styling of buttons */
+#button-bar .btn-group .btn-default { 
+  background: white;
+  border-radius: 10px;
+  color: #626;
+  border: 3px solid #626;
+  font-family: 'Montserrat Alternates', Arial, sans-serif;
+  font-size: 20px;
+}
+
+#button-bar .btn-group + .btn-group {
+  margin-left: 10px;
+}
+
+#button-bar .dropdown-toggle:hover {
+  background: #de5464;
+}
+
+/* Styling of drop down part */
 #button-bar .dropdown-menu {
   background: #1dbacc;
-  color: white;
-  
+  color: white;  
 }
 
 #button-bar .dropdown-menu a {
   color: white;
 }
 
-
-
 #button-bar .btn-group li a:hover {
-  background: white;
-  
+  background: white;  
   color: #de5464;
 }
 
+/* PORTFOLIO ITEMS - ALL SIZES */
 
-.dropdown-toggle:hover .dropdown-menu {
-  display: block;
+.btn-default {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Montserrat Alternates', Arial, sans-serif;
 }
 
+.btn-default:hover {
+  background: white;
+  color: #de5464;
+}
 
-
-#project-body .pane {
+.pane {
+  border: 10px solid black;
+  border-radius: 100px;
+  margin: 25px 100px;
   overflow: hidden;
-}
-
-
-
-.portfolio-item.even img {
-  height: auto;
-  width: 100%;
-  margin-top: -40px;
-  margin-bottom: -40px;
-  margin-left: -80px;
-  border-radius: 0;
-  border: 10px solid #1dbacc;
-}
-
-.portfolio-item.odd img {
-  height: auto;
-  width: 100%;
-  margin-top: -40px;
-  margin-bottom: -40px;
-  margin-right: -80px;
-  border-radius: 0;
-  border: 10px solid white;
+  padding: 20px;
 }
 
 .pane .col-md-5 {
   padding: 0;
 }
 
-#project-body .portfolio-item a.jump {
-  
-  position: relative;
-  top:-100px;
-  display: block;
-  height: 0;
-  width:0;
-}
-
-#return-to-top p{
-  
-  font-size: 16px;
-  margin: 0;
-  background: #626;
-  padding: 5px;
-  border-radius: 5px 5px 0 0;
-  
-}
-
-#return-to-top a:hover {
-  text-decoration: none;
-}
-
-
-#return-to-top.navbar-fixed-bottom {
-  right: 0;
-  width: 20%;
-}
-
-
-
 .portfolio-item {
   color: #000;
   font-family: 'Milonga', Helvetica, serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-.portfolio-item h1, h2 {
+.portfolio-item a {
+  text-decoration: underline;
+}
+
+.portfolio-item a.jump {
+  display: block;
+  height: 0;
+  position: relative;
+  top:-100px;
+  width:0;
+}
+
+.portfolio-item h1,
+.portfolio-item h2 {
   font-family: 'Rye', Arial, sans-serif;
 }
 
@@ -385,10 +353,106 @@ body {
   margin-top: 0px;
 }
 
+.portfolio-item h2 span {
+  font-size: 20px;
+}
+
+.portfolio-item img {
+  border-radius: 0;
+  border-style: solid;
+  border-width: 10px;
+  height: auto;
+  margin-bottom: -40px;
+  margin-top: -40px;
+  width: 100%;
+}
+
+.portfolio-item p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.portfolio-item .row {
+  align-items: center;
+  display: flex;
+  margin: 0;
+}
+
+.portfolio-item .text {
+  font-family: 'Milonga', Arial, sans-serif;
+  font-size: 20px;
+}
+
+/* EVEN ROW PORTFOLIO ITEMS - ALL SIZES */
+.portfolio-item.even a{
+  color: #1dbacc;
+}
+
+.portfolio-item.even .btn-default {
+  background: #626;
+  color: white;
+  text-decoration: none;
+}
+
+.portfolio-item.even img {
+  border-color: #1dbacc;
+  margin-left: -80px;
+}
+
+.portfolio-item.even .pane {  
+  background: white;
+  border-color: #1dbacc;
+}
+
+/* ODD ROW PORTFOLIO ITEMS - ALL SIZES */
+.portfolio-item.odd a {
+  color: white;
+}
+
+.portfolio-item.odd .btn-default {
+  background: #de5464;
+  color: white;
+  text-decoration: none;
+}
+
+.portfolio-item.odd img {
+  border-color: white;
+  margin-right: -80px;
+}
+
+.portfolio-item.odd .pane{
+  background: #1dbacc;  
+  border-color: white;
+}
+
+.portfolio-item.odd .text {
+  padding-right: 0;
+}
+
+
+/* RETURN TO TOP BUTTON - ALL SIZES */
+#return-to-top p{  
+  background: #626;
+  border-radius: 5px 5px 0 0;
+  font-size: 16px;
+  margin: 0;
+  padding: 5px;
+}
+
+#return-to-top a:hover {
+  text-decoration: none;
+}
+
+#return-to-top.navbar-fixed-bottom {
+  right: 0;
+  width: 20%;
+}
+
+/* TOOLBOX (COLORED BOX FOR TOOL INFO) - ALL SIZES */
 .toolbox {
-  padding-top: 1px;
-  padding-bottom: 5px;
   border-radius: 15px;
+  padding-bottom: 5px;
+  padding-top: 1px;
 }
 
 .even .toolbox {
@@ -399,110 +463,7 @@ body {
   background: white;
 }
 
-.portfolio-item a {
-  text-decoration: underline;
-}
-
-.portfolio-item h2 span {
-  font-size: 20px;
-}
-
-
-
-.portfolio-item p {
-  margin-top: 20px;
-  font-size: 20px;
-}
-
-.pane {
-  margin: 25px 100px;
-  border-radius: 100px;
-  padding: 20px;
-  border: 10px solid black;
-  
-}
-
-
-
-.portfolio-item {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.portfolio-item .row {
-  margin: 0;
-  display: flex;
-  align-items: center;
-}
-
-.portfolio-item .text {
-  font-family: 'Milonga', Arial, sans-serif;
-  font-size: 20px;
-}
-
-
-
-.portfolio-item img {
-  width: auto;
-  height: 350px;
-  border-radius: 15px;
-}
-
-
-
-.portfolio-item.odd .pane{
-  background: rgba(29, 186, 204, 1);
-  
-  border-color: rgba(255, 255, 255, 1);
-  
-}
-
-.portfolio-item.odd .text {
-  padding-right: 0;
-}
-
-
-.portfolio-item.even .pane{
-  
-  background: rgba(255, 255, 255, 1);
-  border-color: rgba(29, 186, 204, 1);
-  
-  
-  
-}
-
-.portfolio-item.even a{
-  /*color: rgba(29, 186, 204, 1);*/
-  /*color: #626;*/
-  /*color: white;*/
-  color: #1dbacc;
-}
-
-.portfolio-item.odd a {
-  color: white;
-}
-
-.btn-default {
-  text-decoration: none;
-  font-size: 20px;
-  font-family: 'Montserrat Alternates', Arial, sans-serif;
-}
-
-
-.portfolio-item.even .btn-default {
-  /*background: white;*/
-  color: white;
-  text-decoration: none;
-  background: #626;
-  
-}
-
-.portfolio-item.odd .btn-default {
-  background: #de5464;
-  color: white;
-  text-decoration: none;
-}
-
+/**************** ABOUT ME - ALL SIZES ******************/
 /* ABOUT ME */
 /* Portrait for About Me */
 #portrait {
