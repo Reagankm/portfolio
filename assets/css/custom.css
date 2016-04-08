@@ -633,44 +633,12 @@ body {
 }
 
 /**************** CONTACT - ALL SIZES ******************/
-
-
-#contact-heading {
-  line-height: .75;
-  padding-left: 250px;
-  padding-right: 250px;
-}
-
-#contact-heading .top {
-  text-align: left;
-}
-
-#contact-heading .middle {
-  text-align: center;
-}
-
-#contact-heading .bottom {
-  text-align: right;
-}
-
-
 #contact-deets {
   background: white;
   color: black;
-  font-size: 30px;
   font-family: 'Milonga', Helvetica, sans-serif;
-  text-align: center;
-  
-}
-
-#contact-deets * span {
-  font-family: 'Rye', Helvetica, serif;
-  color: #626;
-}
-
-#contact-deets * .text {
-  padding: 28px;
-  
+  font-size: 30px;
+  text-align: center;  
 }
 
 #contact-deets a {
@@ -681,31 +649,32 @@ body {
   text-decoration-color: #626;
 }
 
+#contact-deets * span {
+  color: #626;
+  font-family: 'Rye', Helvetica, serif;
+}
+
+#contact-deets * .text {
+  padding: 28px;  
+}
+
 #contact-deets #email {
   text-decoration-color: black;
 }
 
 #deets-img {
-  /*border: 5px solid #000;
-     border-radius: 15px;*/
-  display: none;
-  
+  display: none;  
 }
-
 
 #deets-img-container {
   background: url('../img/defenestration.jpg') no-repeat 0% 0% scroll;
-  height: 385px;
-  width: 565px;
-  margin-top: 30px;
-  float: none;
   border: 5px solid #000;
   border-radius: 15px;
-  /*float: right;*/
-
-}
-
-
+  float: none;
+  height: 385px;
+  margin-top: 30px;
+  width: 565px;
+  }
 
 .color-box {
   background: #1dbacc;
@@ -724,9 +693,6 @@ body {
   margin-bottom: 0px;
   font-size: 20px;
 }
-
-/* end of styling for contact page */
-
 
 
 /****************** MEDIA QUERIES FOR DIFFERENT SCREEN SIZES *****************/

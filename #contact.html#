@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="" />
+    <meta name="author" content="Reagan Middlebrook" />
+    <link rel="icon" href="assets/img/favicon.ico" />
+
+    <title>Reagan Middlebrook | Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates|Milonga|Rye' rel='stylesheet' type='text/css' />
+    
+    <!-- Custom styles for this template -->
+    <link href="assets/css/cover.css" rel="stylesheet" />
+    <link href="assets/css/custom.css" rel="stylesheet" />
+
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  
+  <body id="project-body">
+
+
+    <!-- Create speech bubble navbar -->
+    <nav class="navbar-fixed-top speech-navbar">
+      <ul class="nav masthead-nav">
+        <li class="active"><a href="index.html">HOME</a></li>
+        <li><a id="dynamic-portfolio" data-hover="PORTFOLIO" href="portfolio.html"><span>I BUILD SOFTWARE</span></a></li>
+        <li><a id="dynamic-about" data-hover="ABOUT ME" href="about.html"><span>I'M GOOD AT IT</span></a></li>
+        <li><a id="dynamic-contact" data-hover="CONTACT" href="contact.html"><span>REACH ME HERE</span></a></li>
+      </ul>
+    </nav> <!-- end navbar -->
+
+    <section class="emphatic divider-bar page-heading pink-bar">
+      
+      <p class="top">Contact Me</p>
+      <p class="middle">Contact Me</p>
+      <p class="bottom">Contact Me</p>
+      
+    </section>
+
+    <section id="contact-deets">
+      
+      
+      <div class="row">
+        <div class="col-sm-6 text">
+          <div class="color-box">
+            <p><span>Email:</span> <a href="mailto:reagankm@uw.edu" id="email">reagankm@uw.edu</a></p>
+            <div class="row">
+              <!-- RESUME -->
+              <div class="col-xs-5 col-xs-offset-1">
+                <a href="//goo.gl/mxl0hs">
+                  <span class="fa-stack fa-lg" >
+                    
+                    <i class="fa fa-circle fa-stack-2x" ></i>
+                    <i class="fa fa-file-text fa-stack-1x inner"></i>
+                  </span></a>
+                <p><a href="//goo.gl/mxl0hs"><span>Resume</span></a></p>
+                
+              </div><!-- end resume -->
+
+              <!-- LINKEDIN -->
+              <div class="col-xs-5">
+                <a href="//www.linkedin.com/in/reagankm">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x inner"></i>
+                  </span></a>
+                <p><a href="//www.linkedin.com/in/reagankm"><span>LinkedIn</span></a></p>
+              </div>
+            </div><!-- end linkedin -->
+
+            <!-- GITHUB -->
+            <div class="row">
+              <div class="col-xs-5 col-xs-offset-1">
+                <a href="//www.github.com/reagankm">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x" ></i>
+                    <i class="fa fa-github-alt fa-stack-1x inner"></i>
+                  </span></a>
+                <p><a href="//www.github.com/reagankm"><span>GitHub</span></a></p>
+              </div><!-- end github -->
+
+              <!-- TWITTER -->
+              <div class="col-xs-5">
+                <a href="//www.twitter.com/Doom_llama">
+                  <span class="fa-stack fa-lg" >
+                    <i class="fa fa-circle fa-stack-2x" ></i>
+                    <i class="fa fa-twitter fa-stack-1x inner"></i>
+                  </span></a>
+                <p><a href="//www.twitter.com/Doom_llama"><span>Twitter</span></a></p>
+              </div>
+            </div><!-- end Twitter -->
+            
+            
+            <p id="beware">(The Twitter is full of madness, my son. Fear it.)</p>
+          </div><!-- end container -->
+        </div><!-- end left column -->
+        <div class="col-sm-6">
+          <div id="deets-img-container">
+            <img id="deets-img" src="assets/img/defenestration.jpg" alt="Woman defenestrating herself">
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- CREDITS SECTION -->
+    <section class="footer credits">
+      <div class="container" >
+        
+        <p>&copy; 2016 Reagan Middlebrook</p>
+        <p><small>Credits: Picture of a woman defenestrating herself is courtesy of the <a href="//www.flickr.com/photos/britishlibrary/11031271344">British Library</a>.</small></p>
+      </div>
+    </section>
+
+    <!-- BOOTSTRAP CORE JAVASCRIPT (Place at the end of the document so the page loads faster) ======= -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="assets/js/jquery-2.2.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"> </script>
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
