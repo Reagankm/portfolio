@@ -3,6 +3,11 @@
    Blue: #1dbacc rgb: 29, 186, 204
    Purple: #626 rgb: 102,34,102
    Pink: #DE5464 rgb: 222, 84, 100
+
+   Fonts:
+   Headings: 'Rye', Times New Roman, Times, serif
+   Text: 'Milonga', Helvetica, Arial, sans-serif
+   Other: 'Montserrat Alternates', Courier New, Courier, serif
  */
 
 /**************** UNIVERSAL RULES ********************/
@@ -15,7 +20,7 @@ a:hover {
 html,
 body {
   color: #fff;
-  font-family: 'Montserrat Alternates', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat Alternates', Courier New, Courier, serif;
   height: 100%;
   text-align: center;
 }
@@ -26,7 +31,7 @@ body {
   background: white;
   border:5px solid #1dbacc;
   border-radius:10px ;
-  font-family: 'Rye', Helvetica, serif;
+  font-family: 'Rye', Times New Roman, Times, serif;
   height:60px;
   margin-left: auto;
   margin-right: auto;
@@ -133,7 +138,7 @@ body {
 
 /* EMPHATIC HEADING - ALL SIZES */
 .emphatic.divider-bar {
-  font-family: 'Rye', Helvetica, sans-serif;
+  font-family: 'Rye', Times New Roman, Times, serif;
   font-size: 60px;
   line-height: .75;
   padding-bottom: 15px;
@@ -157,13 +162,13 @@ body {
 /* FULL WIDTH DIVIDER BAR - ALL SIZES */
 
 .divider-bar {
-  font-family: 'Milonga', Helvetica, serif;
+  font-family: 'Milonga', Helvetica, Arial, sans-serif;
   font-size: 30px;
   padding: 5px;
 }
 
 .divider-bar h1 {
-  font-family: 'Rye', Helvetica, sans-serif;
+  font-family: 'Rye', Times New Roman, Times, serif;
   font-size: 60px;
 }
 
@@ -231,6 +236,10 @@ body {
   overflow-x: hidden;
 }
 
+#project-body .footer.credits {
+  padding-bottom: 40px;
+}
+
 #left_creature {
   margin-top: 20px;
 }
@@ -259,7 +268,7 @@ body {
 }
 
 #button-bar li a {
-  font-family: 'Montserrat Alternates', Arial, sans-serif;
+  font-family: 'Montserrat Alternates', Courier New, Courier, serif;
   font-size: 20px;\
 }
 
@@ -269,7 +278,7 @@ body {
   border-radius: 10px;
   color: #626;
   border: 3px solid #626;
-  font-family: 'Montserrat Alternates', Arial, sans-serif;
+  font-family: 'Montserrat Alternates', Courier New, Courier, serif;
   font-size: 20px;
 }
 
@@ -301,7 +310,7 @@ body {
 .btn-default {
   text-decoration: none;
   font-size: 20px;
-  font-family: 'Montserrat Alternates', Arial, sans-serif;
+  font-family: 'Montserrat Alternates', Courier New, Courier, serif;
 }
 
 .btn-default:hover {
@@ -323,7 +332,7 @@ body {
 
 .portfolio-item {
   color: #000;
-  font-family: 'Milonga', Helvetica, serif;
+  font-family: 'Milonga', Helvetica, Arial, sans-serif;
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -342,7 +351,7 @@ body {
 
 .portfolio-item h1,
 .portfolio-item h2 {
-  font-family: 'Rye', Arial, sans-serif;
+  font-family: 'Rye', Times New Roman, Times, serif;
 }
 
 .portfolio-item h2 {
@@ -379,7 +388,7 @@ body {
 }
 
 .portfolio-item .text {
-  font-family: 'Milonga', Arial, sans-serif;
+  font-family: 'Milonga', Helvetica, Arial, sans-serif;
   font-size: 20px;
 }
 
@@ -469,12 +478,12 @@ body {
 #about-intro {
   background: url('../img/emp_about_50.jpg') 50% 0 repeat scroll;
   color: white;
-  font-family: 'Milonga', Helvetica, sans-serif;
+  font-family: 'Milonga', Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
 #about-intro h1 {
-  font-family: 'Rye', Helvetica, serif;
+  font-family: 'Rye', Times New Roman, Times, serif;
   font-size: 50px;
   padding-top: 45px;
 }
@@ -493,7 +502,7 @@ body {
 /* EXPOSITION - ALL SIZES */
 #about-expo {
   background: url('../img/laptop_50.jpg') no-repeat center center fixed;
-  font-family: 'Milonga', Helvetica, serif;  
+  font-family: 'Milonga', Helvetica, Arial, sans-serif;
   font-size: 26px;
 }
 
@@ -564,13 +573,13 @@ body {
 }
 
 .field-item {
-  font-family: 'Rye', Helvetica, serif;
+  font-family: 'Rye', Times New Roman, Times, serif;
   font-size: 30px;
   text-align: left;
 }
 
 .field-item p {
-  font-family: 'Milonga', Arial, sans-serif;
+  font-family: 'Milonga', Helvetica, Arial, sans-serif;
   font-size: 24px;
   line-height: 33px;
   text-align: left;
@@ -593,7 +602,7 @@ body {
 /* FOOTNOTE - ALL SIZES*/
 .footnote {
   background: #000;
-  font-family: 'Milonga', Helvetica, serif;
+  font-family: 'Milonga', Helvetica, Arial, sans-serif;
   padding: 20px;
 }
 
@@ -611,12 +620,12 @@ body {
 #lady-footer a {
   color: black;
   text-decoration: underline;
-  font-family: 'Rye', Helvetica, san-serif;
+  font-family: 'Rye', Times New Roman, Times, serif;
 }   
 
 #lady-footer p {
   color: black;
-  font-family: 'Milonga', Helvetica, sans-serif;
+  font-family: 'Milonga', Helvetica, Arial, sans-serif;
 }
 
 #lady-footer .row {
@@ -636,7 +645,7 @@ body {
 #contact-deets {
   background: white;
   color: black;
-  font-family: 'Milonga', Helvetica, sans-serif;
+  font-family: 'Milonga', Helvetica, Arial, sans-serif;
   font-size: 30px;
   text-align: center;  
 }
@@ -651,7 +660,7 @@ body {
 
 #contact-deets * span {
   color: #626;
-  font-family: 'Rye', Helvetica, serif;
+  font-family: 'Rye', Times New Roman, Times, serif;
 }
 
 #contact-deets * .text {
@@ -699,10 +708,11 @@ body {
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
-  /* PORTFOLIO STYLES */
+  /* PORTFOLIO STYLES 
   .portfolio-item .small-header {
     display: none;
   }
+  */
 }
 
 @media (min-width: 1024px) and (max-width: 1199px) {
@@ -738,11 +748,11 @@ body {
     width: 100%;
   }
   
-  
+  /*
   .portfolio-item .small-header {
     display: none;
   }
-
+  */
   
   .portfolio-item h1 {
     font-size: 28px;
@@ -875,11 +885,11 @@ body {
   .portfolio-item h2 span {
     font-size: 18px;
   }
-
+/*
   .portfolio-item .small-header {
     display: none;
   }
-
+*/
   /* ABOUT ME STYLES */
 
   #hack-photo {
@@ -1040,11 +1050,11 @@ body {
   .portfolio-item h2 span {
     font-size: 18px;
   }
-
+/*
   .portfolio-item .small-header {
     display: none;
   }
-
+*/
   .portfolio-item .col-md-7 {
     width: 100%;
   }
@@ -1269,7 +1279,7 @@ body {
     width: 100%;
     
   }
-
+/*
   .portfolio-item.even .col-md-7 h1 {
     display: none;
   }
@@ -1285,7 +1295,7 @@ body {
   .portfolio-item.odd .col-md-7 .toolbox {
     display: none;
   }
-  
+  */
   
   .portfolio-item h1 {
     font-size: 28px;
@@ -1509,7 +1519,7 @@ body {
     width: 100%;
     
   }
-
+/*
   .portfolio-item.even .col-md-7 h1 {
     display: none;
   }
@@ -1525,7 +1535,7 @@ body {
   .portfolio-item.odd .col-md-7 .toolbox {
     display: none;
   }
-  
+  */
   
   .portfolio-item h1 {
     font-size: 28px;
