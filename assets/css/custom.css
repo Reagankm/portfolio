@@ -19,6 +19,7 @@ a:hover {
 
 html,
 body {
+  background-color: #000;
   color: #fff;
   font-family: 'Montserrat Alternates', Courier New, Courier, serif;
   height: 100%;
@@ -520,69 +521,151 @@ body {
   padding: 25px;
 }
 
-/* STYLING FOR TRAPEZOIDS - ALL SIZES*/
-.node-service .row {
-  font-size: 22px;
+.fame-item a {
+  text-decoration: underline;
 }
 
-.node-service .row-1 {
-  background-color: #626;
-}
-
-.node-service .row-1 .triangle {
-  border-color: transparent transparent #626;
-}
-
-.node-service .row-2 {
-  background-color: #1dbacc;
-  color: #000;
-}
-
-.node-service .row-2 .field-item {
-  color: #000;
-}
-
-.node-service .row-2 .triangle {
-  border-color: transparent transparent #1dbacc;
-}
-
-.node-service .row-3 {
-  background-color: #626;
-}
-
-.node-service .row-3 .triangle {
-  border-color: transparent transparent #626;
-}
-
-.node-service .row-4 {
-  background-color: #1dbacc;
-  color: #000;
-}
-
-.node-service .row-4 .field-item {
-  color: #000;
-}
-
-.node-service .row-4 .triangle {
-  border-color: transparent transparent #1dbacc;
-}
-
-/* Text in trapezoids */
-.text-container {
-  text-align: left;
-}
-
-.field-item {
+.fame-item h2 {
   font-family: 'Rye', Times New Roman, Times, serif;
   font-size: 30px;
-  text-align: left;
 }
 
-.field-item p {
+.fame-item p {
   font-family: 'Milonga', Helvetica, Arial, sans-serif;
   font-size: 24px;
   line-height: 33px;
   text-align: left;
+}
+
+.fame-item-container {
+  background-color: #fff;
+}
+
+.fame-item-container .image{
+  left: -webkit-calc(50% - 76px);
+  left: calc(50% - 76px);
+  height: 336px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.fame-item-container .image img {
+  display: block;
+  height: auto;
+  max-width: 100%;  
+}
+
+.fame-item-container .row {
+  color: #fff; /* Make trapezoid borders white */
+  font-size: 22px;
+  margin: 0 0 6px; /* Show trapezoid borders */
+  position: relative;
+}
+
+.fame-item-container .row-even {
+  background-color: #1dbacc;
+  color: #000;
+}
+
+.fame-item-container .row-even .image{
+  left: 0;
+  width: calc(50% + 66px);
+  width: -webkit-calc(50% + 66px);
+}
+
+.fame-item-container .row-even .text{
+  float: right;
+}
+
+.fame-item-container .row-even .triangle {
+  border-color: transparent transparent #1dbacc;
+  border-width: 0 0 336px 140px;
+}
+
+.fame-item-container .row-even .trapezoid-border{
+  border-left: 140px solid transparent;
+  border-right: 0 solid transparent;
+  margin-left: -76px;
+}
+
+.fame-item-container .row-odd {
+  background-color: #626;
+}
+
+.fame-item-container .row-odd .image img{
+  min-height: 336px;
+  width: calc(50% + 76px);
+  width: -webkit-calc(50% + 76px);
+}
+
+.fame-item-container .row-odd .triangle {
+  border-color: transparent transparent #626;
+  /* Fill triangle with color and help diagonal border */
+  border-width: 0 140px 336px 0;
+  margin-left: -76px;
+}
+
+.fame-item-container .row-odd .trapezoid-border{
+  /* Help make diagonal border */
+  border-left: 0 solid transparent;
+  border-right: 140px solid transparent;
+  margin-left: -76px;
+}
+
+.fame-item-container .text-container{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px;
+}
+
+.fame-item-container .trapezoid-border{
+  border-bottom: 336px solid white;
+  box-sizing: content-box;
+  display: block;
+  height: 0;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  -webkit-box-sizing: content-box;
+  width: 6px;
+  z-index: 19;
+}
+
+.fame-item-container .triangle{
+  border-style: solid;
+  box-sizing: content-box;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin-left: -70px;
+  position: absolute;
+  top: 0;
+  -webkit-box-sizing: content-box;
+  width: 0;
+  z-index: 20;
+}
+
+.text-container {
+  text-align: left;
+}
+
+.vertical-center{
+  height: 336px;
+}
+
+.vertical-center:before{
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.vertical-center .ghost{
+  display: inline-block;
+  vertical-align: middle;
+  width: 400px;
 }
 
 /* Parallax for images - all sizes*/
@@ -598,18 +681,6 @@ body {
   width: 100%;
   height: auto;
 }
-
-/* FOOTNOTE - ALL SIZES*/
-.footnote {
-  background: #000;
-  font-family: 'Milonga', Helvetica, Arial, sans-serif;
-  padding: 20px;
-}
-
-.footnote a:hover {
-  text-decoration: none;
-}
-
 
 /* FOOTER WITH WOMAN - ALL SIZES */
 
@@ -639,6 +710,17 @@ body {
 
 #right-col {
   padding: 50px 25px;
+}
+
+/* FOOTNOTE - ALL SIZES*/
+.footnote {
+  background: #000;
+  font-family: 'Milonga', Helvetica, Arial, sans-serif;
+  padding: 20px;
+}
+
+.footnote a:hover {
+  text-decoration: none;
 }
 
 /**************** CONTACT - ALL SIZES ******************/
@@ -705,6 +787,19 @@ body {
 
 
 /****************** MEDIA QUERIES FOR DIFFERENT SCREEN SIZES *****************/
+
+@media(min-width:1441px){
+  .fame-item-container .text-container{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .vertical-center .ghost{
+    width:550px;
+  }
+}
+
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
@@ -854,7 +949,7 @@ body {
 
   
 
-  .node-service .row .image {
+  .fame-item-container .row .image {
     height: 400px;
   }
 
@@ -1097,7 +1192,7 @@ body {
     margin-top: -20px;
   }
 
-  .node-service .row .image {
+  .fame-item-container .row .image {
     height: 300px;
   }
   
@@ -1315,7 +1410,7 @@ body {
     margin-top: -20px;
   }
 
-  .node-service .row .image {
+  .fame-item-container .row .image {
     height: 400px;
   }
   
@@ -1605,12 +1700,12 @@ body {
   #dev-fame-section h1 + p {
     margin-top: 10px;
   }
-
-  .node-service .field-items .field-item {
-    font-size: 25px;
+  
+  .fame-item-container .text-container{
+    padding:30px 20px;
   }
 
-  #about-body .node-service .field-type-text-long .field-items .field-item p {
+  #about-body .fame-item-container .fame-item p {
     font-size: 16px;
   }
   
@@ -1667,7 +1762,7 @@ body {
 
   
 
-  .node-service .row .image {
+  .fame-item-container .row .image {
     height: 300px;
   }
   
@@ -1741,9 +1836,6 @@ body {
     margin: 0;
     padding: 0;
   }
-
-  
-  
 
   #deets-img-container {
     background: url('../img/defenestration.jpg') no-repeat 0% 0% scroll;
