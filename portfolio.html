@@ -98,6 +98,8 @@
                     HTML &amp; CSS
                   </button>
                   <ul class="dropdown-menu">
+                    <li><a href="#wordpress">Tracy's Backpack</a></li>
+                    <li><a href="#recursion">Personal Portfolio</a></li>
                     <li><a href="#access">Access Map Seattle</a></li>
                     <li><a href="#aces">Aces Four Construction</a></li>
                   </ul>
@@ -131,6 +133,7 @@
                     PHP
                   </button>
                   <ul class="dropdown-menu">
+                    <li><a href="#wordpress">Tracy's Backpack</a></li>
                     <li><a href="#alembic">Alembic</a></li>
                   </ul>
                 </div><!-- end PHP dropdown -->
@@ -157,6 +160,7 @@
                     SQL, etc.
                   </button>
                   <ul class="dropdown-menu">
+                    <li><a href="#wordpress">Tracy's Backpack</a></li>
                     <li><a href="#alembic">Alembic</a></li>
                     <li><a href="#mit">Web Services Registry</a></li>
                   </ul>
@@ -174,7 +178,68 @@
         </div><!-- end outermost row -->
       </section><!-- end button bar section -->
 
-      <!-- PORTFOLIO ITEMS -->
+      <!-------------- PORTFOLIO ITEMS ----------------->
+
+      <!-- WORDPRESS SECTION -->
+      <section class="portfolio-item even">
+        <a name="wordpress" class="jump"></a>
+        <div class="pane">
+          <div class="row">
+            
+            <!-- image and link -->
+            <div class="col-md-5" id = "wordpress-img-col">
+              <a href="http://www.tracysbackpack.com">
+                <img src="assets/img/wordpress_screen.jpg" alt="Screenshot of Tracy's Backpack theme"></a>
+            </div><!-- end image -->
+
+            <!-- Heading, tools, and description -->
+            <div class="col-md-7 text">
+              <h1>Tracy's Backpack WordPress Theme</h1>
+              <div class="toolbox">
+                <h2>TOOLS:
+                  <span>WordPress, PHP, HTML, CSS, Bootstrap, FTP, MySQL</span></h2>
+                <h2><a class="btn btn-med btn-default" href="http://www.tracysbackpack.com/">
+                  <i class="fa fa-desktop fa-1x"></i>  Website</a>
+              </div><!-- end toolbox -->
+              
+              <p>Built and installed a responsive custom WordPress theme for a personal travel blog, improving readability for users and usability for administrators.</p>
+              <p>Created to practice web development and to learn about WordPress development.</p>
+            </div><!-- end description column -->           
+          </div><!-- end row -->
+        </div><!-- end pane -->
+      </section><!-- END WORDPRESS -->
+
+      <!-- RECURSIVE SECTION -->
+      <section class="portfolio-item odd">
+        <a name="recursion" class="jump"></a>
+        <div class="pane">
+          <div class="row">
+
+            <!-- Heading, tools, and description -->
+            <div class="col-md-7 text">
+              <h1>Personal Portfolio Website</h1>
+              <div class="toolbox">
+                <h2>TOOLS:
+                  <span>HTML, CSS, Bootstrap, Git</span></h2>
+                <h2><a class="btn btn-med btn-default" href="http://www.reaganmiddlebrook.com">
+                  <i class="fa fa-desktop fa-1x"></i>  Website</a>
+                  <a class="btn btn-med btn-default" href="http://github.com/Reagankm/Portfolio">
+                  <i class="fa fa-code fa-1x"></i>  View Code</a></h2>
+              </div><!-- end toolbox -->
+              
+              <p>Designed and built a responsive personal portfolio website for myself intended to advertise my achievements and display my personality. 
+              </p>
+              <p>Created to improve my understanding of web developmnet.</p>
+            </div><!-- end desciption col -->
+
+            <!-- image and link -->
+            <div class="col-md-5">
+              <a href="http://www.reaganmiddlebrook.com">
+                <img src="assets/img/portfolio_screen.jpg" alt="Screenshot of this very site"></a>
+            </div><!-- end image -->
+          </div><!-- end row -->
+        </div><!-- end pane -->
+      </section><!-- END RECURSIVE EXAMPLE -->
       
       <!-- ALEMBIC SECTION -->
       <section class="portfolio-item even">
@@ -223,7 +288,7 @@
               
               <p>Calculates the average tweet frequency of every Twitter account you follow then creates and sorts them into four new Twitter lists: Accounts who tweet 30 or more times per day; Accounts who tweet between 5 and 30 times per day; Accounts who tweet between 1 and 5 times per day; and Accounts who tweet less than once per day.
               </p>
-              
+              <p>Created because I wanted a way to isolate accounts I follow by tweet frequence.</p>
             </div><!-- end desciption col -->
 
             <!-- image and link -->
@@ -477,12 +542,14 @@
 
       <!-- floating RETURN TO TOP section  -->
       
-      <a href="#portfolio-top"><div class="navbar-fixed-bottom" id="return-to-top" >
-        <p><i class="fa fa-arrow-circle-o-up fa-1x"></i>
-          Return to Top
-          <i class="fa fa-arrow-circle-o-up fa-1x"></i>
-        </p></a>
-      </div>
+      <a href="#portfolio-top">
+        <div class="navbar-fixed-bottom" id="return-to-top" >
+          <p><i class="fa fa-arrow-circle-o-up fa-1x"></i>
+            Return to Top
+            <i class="fa fa-arrow-circle-o-up fa-1x"></i>
+          </p>
+        </div>
+      </a>
     <!-- end footer -->
 
     <!-- BOOTSTRAP CORE JAVASCRIPT (Place at the end of the document so the page loads faster) ======= -->

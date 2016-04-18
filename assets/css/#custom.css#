@@ -787,6 +787,12 @@ body {
 
 /****************** MEDIA QUERIES FOR DIFFERENT SCREEN SIZES *****************/
 
+/* From amaze */
+
+
+
+
+/* From me */
 @media(min-width:1441px){
   .fame-item-container .text-container{
     max-width: 1280px;
