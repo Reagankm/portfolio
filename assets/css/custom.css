@@ -1078,6 +1078,11 @@ body {
   .emphatic.divider-bar {
     font-size: 45px;
   }
+
+  .footer.credits .container p{
+    font-size: 16px;
+  }
+  
   
 
   /* PORTFOLIO STYLES */
@@ -1168,7 +1173,9 @@ body {
     padding-top: 15px;
   }
 
-  #about-body p {
+  #about-intro p,
+  #about-expo p,
+  .node-service p{
     font-size: 20px;
   }
 
@@ -1193,6 +1200,10 @@ body {
 
   .row .image img {
     width: 100%;
+  }
+
+  .node-service .text-container {
+    padding: 30px 20px;
   }
   
   
@@ -1280,6 +1291,11 @@ body {
     font-size: 16px;
   }
   
+  
+  .footnote .container p a{
+    font-size: 16px;
+  }
+
   
   
   
