@@ -536,11 +536,11 @@ body {
   text-align: left;
 }
 
-.fame-item-container {
+.node-service {
   background-color: #fff;
 }
 
-.fame-item-container .image{
+.node-service .image{
   left: -webkit-calc(50% - 76px);
   left: calc(50% - 76px);
   height: 336px;
@@ -550,76 +550,76 @@ body {
   width: 100%;
 }
 
-.fame-item-container .image img {
+.node-service .image img {
   display: block;
   height: auto;
   max-width: 100%;  
 }
 
-.fame-item-container .row {
+.node-service .row {
   color: #fff; /* Make trapezoid borders white */
   font-size: 22px;
   margin: 0 0 6px; /* Show trapezoid borders */
   position: relative;
 }
 
-.fame-item-container .row-even {
+.node-service .row-even {
   background-color: #1dbacc;
   color: #000;
 }
 
-.fame-item-container .row-even .image{
+.node-service .row-even .image{
   left: 0;
   width: calc(50% + 66px);
   width: -webkit-calc(50% + 66px);
 }
 
-.fame-item-container .row-even .text{
+.node-service .row-even .text{
   float: right;
 }
 
-.fame-item-container .row-even .triangle {
+.node-service .row-even .triangle {
   border-color: transparent transparent #1dbacc;
   border-width: 0 0 336px 140px;
 }
 
-.fame-item-container .row-even .trapezoid-border{
+.node-service .row-even .trapezoid-border{
   border-left: 140px solid transparent;
   border-right: 0 solid transparent;
   margin-left: -76px;
 }
 
-.fame-item-container .row-odd {
+.node-service .row-odd {
   background-color: #626;
 }
 
-.fame-item-container .row-odd .image img{
+.node-service .row-odd .image img{
   min-height: 336px;
   width: calc(50% + 76px);
   width: -webkit-calc(50% + 76px);
 }
 
-.fame-item-container .row-odd .triangle {
+.node-service .row-odd .triangle {
   border-color: transparent transparent #626;
   /* Fill triangle with color and help diagonal border */
   border-width: 0 140px 336px 0;
   margin-left: -76px;
 }
 
-.fame-item-container .row-odd .trapezoid-border{
+.node-service .row-odd .trapezoid-border{
   /* Help make diagonal border */
   border-left: 0 solid transparent;
   border-right: 140px solid transparent;
   margin-left: -76px;
 }
 
-.fame-item-container .text-container{
+.node-service .text-container{
   margin-left: auto;
   margin-right: auto;
   max-width: 980px;
 }
 
-.fame-item-container .trapezoid-border{
+.node-service .trapezoid-border{
   border-bottom: 336px solid white;
   box-sizing: content-box;
   display: block;
@@ -632,7 +632,7 @@ body {
   z-index: 19;
 }
 
-.fame-item-container .triangle{
+.node-service .triangle{
   border-style: solid;
   box-sizing: content-box;
   display: block;
@@ -786,77 +786,9 @@ body {
 
 
 /****************** MEDIA QUERIES FOR DIFFERENT SCREEN SIZES *****************/
-
-/* From amaze */
-
-@media(min-width:769px){
-  h2{
-    font-size:40px;
-    font-size:4.0rem;
-    line-height:44px;
-    line-height:4.4rem;
-
-  }
-}
-
-@media(min-width:481px) and (max-width:768px){
-  h2{
-    font-size:32px;
-    font-size:3.2rem;
-    line-height:38px;
-    line-height:3.8rem;
-  }
-}
-
-@media(min-width:0) and (max-width:480px){
-  h2{
-    margin:26px 0 6px;
-  }
-}
-
-@media(min-width:481px){
-  .fame-item-container .row{
-    font-size:18px;
-    font-size:1.8rem;
-    line-height:28px;
-    line-height:2.8rem;
-    font-weight:400;
-  }
-}
-
-@media(min-width:769px){
-  .fame-item-container .row{
-    font-size:20px;
-    font-size:2.0rem;
-    line-height:30px;
-    line-height:3.0rem;
-    font-weight:300;
-  }
-}
-
-@media(min-width:1024px){
-  .fame-item-container .row{
-    height:336px;
-  }
-
-  .fame-item-container .row h2{
-    margin:-4px 0 10px;
-  }
-}
-
-@media screen and (min-width:1024px){
-  .fame-item-container .image{
-    position:absolute;
-    top:0;
-    left:-webkit-calc(50% - 76px);
-    left:calc(50% - 76px);
-  }
-}
-
-
 /* From me */
 @media(min-width:1441px){
-  .fame-item-container .text-container{
+  .node-service .text-container{
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
@@ -1016,7 +948,7 @@ body {
 
   
 
-  .fame-item-container .row .image {
+  .node-service .row .image {
     height: 400px;
   }
 
@@ -1387,21 +1319,21 @@ body {
 }
 
 @media screen and (min-width: 481px) and (max-width: 1023px) {
-  .fame-item-container .text-container {
+  .node-service .text-container {
     padding: 50px 40px;
   }
 
 }
 
 @media (min-width: 481px) {
-  .fame-item-container .row {
+  .node-service .row {
     line-height: 2.8rem;
     font-weight: 400;
   }
 }
 
 @media(min-width:1024px){
-  .fame-item-container .row-odd .image img{
+  .node-service .row-odd .image img{
     min-height:336px;
     width:calc(50% + 76px);
     width:-webkit-calc(50% + 76px);
@@ -1409,13 +1341,13 @@ body {
 }
 
 @media screen and (min-width:1024px){
-  .fame-item-container .row-even .text{
+  .node-service .row-even .text{
     float:right;
   }
 }
 
 @media screen and (min-width:1024px){
-  .fame-item-container .row-even .image{
+  .node-service .row-even .image{
     left:0;
     width:calc(50% + 66px);
     width:-webkit-calc(50% + 66px);
@@ -1423,32 +1355,32 @@ body {
 }
 
 @media screen and (min-width:1024px){
-  .fame-item-container .trapezoid-border{
+  .node-service .trapezoid-border{
     display:block;
   }
 }
 
 @media screen and (min-width:1024px){
-  .fame-item-container .triangle{
+  .node-service .triangle{
     display:block;
   }
 }
 
 @media(min-width:1024px){
-  .fame-item-container .image{
+  .node-service .image{
     height:336px;
     overflow:hidden;
   }
 }
 
 @media(min-width:1024px){
-  .fame-item-container .text-container{
+  .node-service .text-container{
     max-width:980px;
     margin-left:auto;
     margin-right:auto;
   }
 
-  .fame-item-container .text-container:after{
+  .node-service .text-container:after{
     content:" ";
     display:block;
     clear:both;
@@ -1456,13 +1388,13 @@ body {
 }
 
 @media(min-width:1441px){
-  .fame-item-container .text-container{
+  .node-service .text-container{
     max-width:1280px;
     margin-left:auto;
     margin-right:auto;
   }
 
-  .fame-item-container .text-container:after{
+  .node-service .text-container:after{
     content:" ";
     display:block;
     clear:both;
@@ -1470,13 +1402,13 @@ body {
 }
 
 @media(min-width:0) and (max-width:480px){
-  .fame-item-container .text-container{
+  .node-service .text-container{
     padding:30px 20px;
   }
 }
 
 @media screen and (min-width:481px) and (max-width:1023px){
-  .fame-item-container .text-container{
+  .node-service .text-container{
     padding:50px 40px;
   }
 }
@@ -1505,7 +1437,7 @@ body {
 }
 
 @media screen and (min-width:769px) and (max-width:1440px){
-  .fame-item-container .row h2{
+  .node-service .row h2{
     font-size:30px;
     font-size:3.0rem;
     line-height:34px;
@@ -1622,7 +1554,7 @@ body {
     margin-top: -20px;
   }
 
-  .fame-item-container .row .image {
+  .node-service .row .image {
     height: 400px;
   }
   
@@ -1918,11 +1850,11 @@ body {
     margin-top: 10px;
   }
   
-  .fame-item-container .text-container{
+  .node-service .text-container{
     padding:30px 20px;
   }
 
-  #about-body .fame-item-container .fame-item p {
+  #about-body .node-service .fame-item p {
     font-size: 16px;
   }
   
@@ -1979,7 +1911,7 @@ body {
 
   
 
-  .fame-item-container .row .image {
+  .node-service .row .image {
     height: 300px;
   }
   
