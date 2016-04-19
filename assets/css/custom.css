@@ -240,11 +240,11 @@ body {
   padding-bottom: 40px;
 }
 
-#left_creature {
+#left-creature {
   margin-top: 20px;
 }
 
-#right_creature {
+#right-creature {
   margin-top: 30px;
 }
 
@@ -1610,6 +1610,47 @@ body {
   .emphatic .bottom {
     display: none;
   }
+
+  #left-creature,
+  #right-creature {
+    display: none;
+  }
+
+  /* Display buttons vertically */
+  .btn-group > .btn-group{
+    float: none;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #button-bar .btn-group + .btn-group {
+    margin-left: 0;
+  }
+
+  /*.btn-group > .btn-group + .btn-group {
+    margin-top: -1px;
+  }
+
+  .btn-group {
+    margin-top: 2px;
+  }*/
+
+  .dropdown-toggle {
+    margin-top: 5px;
+  }
+  
+  
+  /*Match width of first button group so they center
+  in the same place*/
+  #second-button-group {
+    width: 158px;
+  }
+  
+  
+  #project-body {
+    font-size: 30px;
+  }
   
 
   .pane {
@@ -1638,23 +1679,6 @@ body {
     width: 100%;
     
   }
-/*
-  .portfolio-item.even .col-md-7 h1 {
-    display: none;
-  }
-
-  .portfolio-item.even .col-md-7 .toolbox {
-    display: none;
-  }
-
-  .portfolio-item.odd .col-md-7 h1 {
-    display: none;
-  }
-
-  .portfolio-item.odd .col-md-7 .toolbox {
-    display: none;
-  }
-  */
   
   .portfolio-item h1 {
     font-size: 28px;
