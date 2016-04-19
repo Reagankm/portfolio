@@ -607,12 +607,12 @@ body {
   width: -webkit-calc(50% + 76px);
 }
 */
-/*.node-service .row-odd .triangle {
+.node-service .row-odd .triangle {
   border-color: transparent transparent #626;
   /* Fill triangle with color and help diagonal border 
   border-width: 0 140px 336px 0;
-  margin-left: -76px;
-}*/
+  margin-left: -76px;*/
+}
 
 /*.node-service .row-odd .trapezoid-border{
   /* Help make diagonal border 
