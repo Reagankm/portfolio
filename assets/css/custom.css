@@ -520,7 +520,7 @@ body {
   padding: 25px;
 }
 
-.node-service .row {
+.trapezoid-container .row {
   font-size: 22px;
 }
 
@@ -541,139 +541,41 @@ body {
   text-align: left;
 }
 
-/*.node-service {
-  background-color: #fff;
-}
 
-.node-service .image{
-  left: -webkit-calc(50% - 76px);
-  left: calc(50% - 76px);
-  height: 336px;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.node-service .image img {
-  display: block;
-  height: auto;
-  max-width: 100%;  
-}*/
-
-/*.node-service .row {
-  color: #fff; /* Make trapezoid borders white 
-  font-size: 22px;
-  margin: 0 0 6px; /* Show trapezoid borders 
-  position: relative;
-  overflow: hidden;
-}*/
-
-
-
-.node-service .row-even {
+.trapezoid-container .row-even {
   background-color: #1dbacc;
   color: #000;
 }
 
-/*.node-service .row-even .image{
-  left: 0;
-  width: calc(50% + 66px);
-  width: -webkit-calc(50% + 66px);
-}
 
-.node-service .row-even .text{
-  float: right;
-}*/
-
-.node-service .row-even .triangle {
+.trapezoid-container .row-even .triangle {
   border-color: transparent transparent #1dbacc;
-  /*border-width: 0 0 336px 140px;*/
 }
 
-/*.node-service .row-even .trapezoid-border{
-  border-left: 140px solid transparent;
-  border-right: 0 solid transparent;
-  margin-left: -76px;
-}*/
 
-.node-service .row-odd {
+.trapezoid-container .row-odd {
   background-color: #626;
 }
 
-/*.node-service .row-odd .image img{
-  min-height: 336px;
-  width: calc(50% + 76px);
-  width: -webkit-calc(50% + 76px);
-}
-*/
-.node-service .row-odd .triangle {
+.trapezoid-container .row-odd .triangle {
   border-color: transparent transparent #626;
-  /* Fill triangle with color and help diagonal border 
-  border-width: 0 140px 336px 0;
-  margin-left: -76px;*/
 }
 
-/*.node-service .row-odd .trapezoid-border{
-  /* Help make diagonal border 
-  border-left: 0 solid transparent;
-  border-right: 140px solid transparent;
-  margin-left: -76px;
-}*/
-
-/*.node-service .text-container{
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 980px;
-}*/
-
-/*.node-service .trapezoid-border{
-  border-bottom: 336px solid white;
-  box-sizing: content-box;
-  display: block;
-  height: 0;
-  left: 50%;
-  position: absolute;
-  top: 0;
-  -webkit-box-sizing: content-box;
-  width: 6px;
-  z-index: 19;
-}*/
-
-/*.node-service .triangle{
-  border-style: solid;
-  box-sizing: content-box;
-  display: block;
-  height: 0;
-  left: 50%;
-  margin-left: -70px;
-  position: absolute;
-  top: 0;
-  -webkit-box-sizing: content-box;
-  width: 0;
-  z-index: 20;
-}*/
 
 .text-container {
   text-align: left;
 }
 
-/*.vertical-center{
-  height: 336px;
+/* #mit-photo img {
+   position: relative;
+   top: -80px;
+   } */
+
+#ghc-photo img,
+#mit-photo img {
+  height: calc(100%);
 }
 
-.vertical-center:before{
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  height: 100%;
-}
-
-.vertical-center .ghost{
-  display: inline-block;
-  vertical-align: middle;
-  width: 400px;
-}*/
 
 /* Parallax for images - all sizes*/
 .parallax-image {
@@ -796,7 +698,7 @@ body {
 /****************** MEDIA QUERIES FOR DIFFERENT SCREEN SIZES *****************/
 /* From me */
 @media(min-width:1441px){
-  .node-service .text-container{
+  .trapezoid-container .text-container{
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
@@ -951,15 +853,6 @@ body {
   .portfolio-item.odd img {
     margin-right: -280px;
   }
-
-  
-
-  
-
-/*  .node-service .row .image {
-    height: 400px;
-  }
-*/
 
   .portfolio-item.odd .col-md-5 {
     margin-left: 15px;
@@ -1175,7 +1068,7 @@ body {
 
   #about-intro p,
   #about-expo p,
-  .node-service p{
+  .trapezoid-container p{
     font-size: 20px;
   }
 
@@ -1202,7 +1095,7 @@ body {
     width: 100%;
   }
 
-  .node-service .text-container {
+  .trapezoid-container .text-container {
     padding: 30px 20px;
   }
   
@@ -1434,7 +1327,7 @@ body {
     margin-top: -20px;
   }
 
-  .node-service .row .image {
+  .trapezoid-container .row .image {
     height: 400px;
   }
   
@@ -1754,11 +1647,11 @@ body {
     margin-top: 10px;
   }
   
-  .node-service .text-container{
+  .trapezoid-container .text-container{
     padding:30px 20px;
   }
 
-  #about-body .node-service .ghost p {
+  #about-body .trapezoid-container .ghost p {
     font-size: 16px;
   }
   
@@ -1815,7 +1708,7 @@ body {
 
   
 
-  .node-service .row .image {
+  .trapezoid-container .row .image {
     height: 300px;
   }
   
